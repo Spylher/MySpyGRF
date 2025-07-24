@@ -1,0 +1,6 @@
+@MySpyGRF.Server_HostAddress = http://localhost:5230
+
+GET {{MySpyGRF.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
