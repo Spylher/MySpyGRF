@@ -39,9 +39,8 @@ namespace MySpyGRF.Server
 
             app.MapControllers();
             app.MapGet("/", () => $"Hello World!");
-            app.Urls.Add("https://localhost:25776");
-
-            //app.Urls.Add("https://0.0.0.0:25776");
+            //app.Urls.Add("https://localhost:25776");
+            app.Urls.Add("https://0.0.0.0:25776");
 
             app.Run();
         }
