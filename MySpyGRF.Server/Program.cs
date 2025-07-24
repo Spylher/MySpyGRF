@@ -40,6 +40,8 @@ namespace MySpyGRF.Server
             app.UseAuthorization();
             app.MapControllers();
             app.MapGet("/", () => $"Hello World!");
+
+            //app.Urls.Add("https://localhost:25776");
             app.Run();
         }
     }

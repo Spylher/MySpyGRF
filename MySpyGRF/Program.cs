@@ -19,7 +19,7 @@ internal class Program
         try
         {
             using var client = new HttpClient();
-            const string apiUrl = "https://localhost:25776/v1/User/login"; // Altere para a URL real da sua API
+            const string apiUrl = "http://193.180.213.177:25776//v1/User/login"; // Altere para a URL real da sua API
 
             var response = await client.PostAsJsonAsync(apiUrl, login);
 
@@ -35,9 +35,9 @@ internal class Program
             //Console.WriteLine($"Mensagem: {result.Message}");
             //Console.WriteLine($"Token: {result.Token}");
         }
-        catch (HttpRequestException)
+        catch (HttpRequestException ex)
         {
-            //Console.WriteLine($"Erro ao fazer login: {ex.Message}");
+            Console.WriteLine($"Erro ao fazer login: {ex.Message}");
             Console.ReadKey();
             return;
         }
