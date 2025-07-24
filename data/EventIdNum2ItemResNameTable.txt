@@ -1,0 +1,965 @@
+﻿//ID#Nome_do_Sprite#							Nome da Ilustracao (kRO)		Nome da Carta (bRO)
+4001#Poring_Card#						//		Æ÷¸µÄ«µå					|		Carta Poring
+4002#Fabre_Card#						//		ÆÄºê¸£Ä«µå					|		Carta Fabre
+4003#Pupa_Card#							//		ÇªÆÄÄ«µå					|		Carta Pupa
+4004#Drops_Card#						//		µå·ÓÇÁ½ºÄ«µå					|		Carta Drops
+4005#Poring__Card#						//		»êÅ¸Æ÷¸µÄ«µå					|		Carta Poring Noel
+4006#Lunatic_Card#						//		·ç³ªÆ½Ä«µå					|		Carta Lunatico
+4007#Pecopeco_Egg_Card#					//		ÆäÄÚÆäÄÚ¾ËÄ«µå				|		Carta Ovo de Peco Peco
+4008#Picky_Card#						//		ÇÈÅ°Ä«µå					|		Carta Picky
+4009#Chonchon_Card#						//		ÃÌÃÌÄ«µå					|		Carta Chonchon
+4010#Wilow_Card#						//		Àª·Î¿ìÄ«µå					|		Carta Salgueiro
+4011#Picky__Card#						//		¾ËÇÈÅ°Ä«µå					|		Carta Picky com casca
+4012#Thief_Bug_Egg_Card#				//		µµµÏ¹ú·¹¾ËÄ«µå				|		Carta Ovo de Besouro-Ladrao
+4013#Andre_Egg_Card#					//		¾Óµå·¹¾ËÄ«µå					|		Carta Ovo de Andre
+4014#Roda_Frog_Card#					//		·Î´ÙÇÁ·Î±×Ä«µå				|		Carta Sapo de Roda
+4015#Condor_Card#						//		ÄÜµµ¸£Ä«µå					|		Carta Condor
+4016#Thief_Bug_Card#					//		µµµÏ¹ú·¹Ä«µå					|		Carta Besouro-Ladrao
+4017#Savage_Babe_Card#					//		»õºñÁöº£º£Ä«µå				|		Carta Bebe Selvagem
+4018#Andre_Larva_Card#					//		¾Óµå·¹À¯ÃæÄ«µå				|		Carta Larva de Andre
+4019#Hornet_Card#						//		È£³ÝÄ«µå					|		Carta Zangao
+4020#Farmiliar_Card#					//		ÆÛ¹Ð¸®¾îÄ«µå					|		Carta Familiar
+4021#Rocker_Card#						//		·ÎÄ¿Ä«µå					|		Carta Rocker
+4022#Spore_Card#						//		½ºÆ÷¾ÆÄ«µå					|		Carta Esporo
+4023#Desert_Wolf_Babe_Card#				//		µ¥¿ïÇÁ»õ³¢Ä«µå				|		Carta Filhote de Lobo do Deserto
+4024#Plankton_Card#						//		ÇÃ¶ûÅ©ÅæÄ«µå					|		Carta Plankton
+4025#Skeleton_Card#						//		½ºÄÌ·¹ÅæÄ«µå					|		Carta Esqueleto
+4026#Thief_Bug_Female_Card#				//		¾ÏµµµÏ¹ú·¹Ä«µå				|		Carta Besouro-Ladrao Femea
+4027#Kukre_Card#						//		ÄíÅ©·¹Ä«µå					|		Carta Kukre
+4028#Tarou_Card#						//		Å¸·Î¿ìÄ«µå					|		Carta Tarou
+4029#Wolf_Card#							//		¿ïÇÁÄ«µå					|		Carta Lobo
+4030#Mandragora_Card#					//		¸¸µå¶ó°í¶óÄ«µå				|		Carta Mandragora
+4031#Pecopeco_Card#						//		ÆäÄÚÆäÄÚÄ«µå					|		Carta Peco Peco
+4032#Ambernite_Card#					//		¾Ú¹ö³ªÀÌÆ®Ä«µå				|		Carta Ambernite
+4033#Poporing_Card#						//		Æ÷Æ÷¸µÄ«µå					|		Carta Poporing
+4034#Worm_Tail_Card#					//		¿úÅ×ÀÏÄ«µå					|		Carta Rabo-de-Verme
+4035#Hydra_Card#						//		È÷µå¶óÄ«µå					|		Carta Hidra
+4036#Muka_Card#							//		¹«Ä«Ä«µå					|		Carta Muka
+4037#Snake_Card#						//		½º³×ÀÌÅ©Ä«µå					|		Carta Jiboia
+4038#Zombie_Card#						//		Á»ºñÄ«µå					|		Carta Zumbi
+4039#Stainer_Card#						//		½ºÅ¸ÀÌ³ÊÄ«µå					|		Carta Percevejo
+4040#Creamy_Card#						//		Å©¸®¹ÌÄ«µå					|		Carta Creamy
+4041#Coco_Card#							//		ÄÚÄÚÄ«µå					|		Carta Koko
+4042#Steel_Chonchon_Card#				//		½ºÆ¿ÃÌÃÌÄ«µå					|		Carta Chonchon de Aco
+4043#Andre_Card#						//		¾Óµå·¹Ä«µå					|		Carta Andre
+4044#Smokie_Card#						//		½º¸ðÅ°Ä«µå					|		Carta Fumacento
+4045#Horn_Card#							//		È£¸¥Ä«µå					|		Carta Besouro-Chifre
+4046#Martin_Card#						//		¸¶¸£Æ¾Ä«µå					|		Carta Martin
+4047#Ghostring_Card#					//		°í½ºÆ®¸µÄ«µå					|		Carta Ghostring
+4048#Poison_Spore_Card#					//		Æ÷½ºÆ÷¾ÆÄ«µå					|		Carta Esporo Venenoso
+4049#Vadon_Card#						//		¹Ùµ·Ä«µå					|		Carta Vadon
+4050#Thief_Bug_Male_Card#				//		¼öµµµÏ¹ú·¹Ä«µå				|		Carta Besouro-Ladrao Macho
+4051#Yoyo_Card#							//		¿ä¿äÄ«µå					|		Carta Yoyo
+4052#Elder_Wilow_Card#					//		¿¤´õÀª·Î¿ìÄ«µå				|		Carta Salgueiro Anciao
+4053#Vitata_Card#						//		ºñÅ¸Å¸Ä«µå					|		Carta Vitata
+4054#Angeling_Card#						//		¿£Á©¸µÄ«µå					|		Carta Angeling
+4055#Marina_Card#						//		¸¶¸®³ªÄ«µå					|		Carta Marina
+4056#Dustiness_Card#					//		´õ½ºÆ¼³×½ºÄ«µå				|		Carta Poeira
+4057#Metaller_Card#						//		¸ÞÆ²·¯Ä«µå					|		Carta Metaller
+4058#Thara_Frog_Card#					//		Å¸¶óÇÁ·Î±×Ä«µå				|		Carta Sapo de Thara
+4059#Soldier_Andre_Card#				//		º´Á¤¾Óµå·¹Ä«µå				|		Carta Soldado Andre
+4060#Goblin_Card#						//		°íºí¸°Ä«µå					|		Carta Goblin
+4061#Cornutus_Card#						//		Ä¿³ÊÅõ½ºÄ«µå					|		Carta Cornutus
+4062#Anacondaq_Card#					//		¾Æ³ªÄÜ´ÙÅ©Ä«µå				|		Carta Anaconda
+4063#Caramel_Card#						//		Ä«¶ó¸áÄ«µå					|		Carta Caramelo
+4064#Zerom_Card#						//		Á¦·ÒÄ«µå					|		Carta Zerom
+4065#Kaho_Card#							//		Ä«È£Ä«µå					|		Carta Kaho
+4066#Orc_Warrior_Card#					//		¿ÀÅ©¿ö¸®¾îÄ«µå				|		Carta Guerreiro Orc
+4067#Megalodon_Card#					//		¸Þ°¥·Îµ·Ä«µå					|		Carta Megalodon
+4068#Scorpion_Card#						//		½ºÄÝÇÇ¿ÂÄ«µå					|		Carta Escorpiao
+4069#Drainliar_Card#					//		µå·¹ÀÎ¸®¾îÄ«µå				|		Carta Drainliar
+4070#Eggyra_Card#						//		¿¡±â¶óÄ«µå					|		Carta Eggyra
+4071#Orc_Zombie_Card#					//		¿ÀÅ©Á»ºñÄ«µå					|		Carta Orc Zumbi
+4072#Golem_Card#						//		°í·½Ä«µå					|		Carta Golem
+4073#Pirate_Skel_Card#					//		ÇØÀû½ºÄÌÄ«µå					|		Carta Esqueleto Pirata
+4074#BigFoot_Card#						//		ºòÇ²Ä«µå					|		Carta Pe-Grande
+4075#Argos_Card#						//		¾Æ¸£°í½ºÄ«µå					|		Carta Argos
+4076#Magnolia_Card#						//		¹é·Ã¿ÁÄ«µå					|		Carta Magnolia
+4077#Phen_Card#							//		ÈÓÄ«µå						|		Carta Fen
+4078#Savage_Card#						//		»õºñÁöÄ«µå					|		Carta Selvagem
+4079#Mantis_Card#						//		¸ÇÆ¼½ºÄ«µå					|		Carta Louva-a-Deus
+4080#Flora_Card#						//		ÇÃ·Î¶óÄ«µå					|		Carta Flora
+4081#Hode_Card#							//		È£µåÄ«µå					|		Carta Hode
+4082#Desert_Wolf_Card#					//		µ¥ÀúÆ®¿ïÇÁÄ«µå				|		Carta Lobo do Deserto
+4083#Rafflesia_Card#					//		¶óÇÃ·¹½Ã¾ÆÄ«µå				|		Carta Rafflesia
+4084#Marine_Sphere_Card#				//		¸¶¸°½ºÇÇ¾îÄ«µå				|		Carta Esfera Marinha
+4085#Orc_Skeleton_Card#					//		¿ÀÅ©½ºÄÌÄ«µå					|		Carta Orc Esqueleto
+4086#Soldier_Skeleton_Card#				//		¼ÖÁ®½ºÄÌÅæÄ«µå				|		Carta Esqueleto Soldado
+4087#Giearth_Card#						//		°¡ÀÌ¾Æ½ºÄ«µå					|		Carta Giearth
+4088#Frilldora_Card#					//		ÇÁ¸±µµ¶óÄ«µå					|		Carta Frilldora
+4089#Sword_Fish_Card#					//		¼ÒµåÇÇ½¬Ä«µå					|		Carta Peixe-Espada
+4090#Munak_Card#						//		¹«³«Ä«µå					|		Carta Munak
+4091#Kobold_Card#						//		ÄÚº¼Æ®Ä«µå					|		Carta Cobold
+4092#Skel_Worker_Card#					//		½ºÄÌ¿öÄ¿Ä«µå					|		Carta Esqueleto Operario
+4093#Obeaune_Card#						//		¿Àº»´ÀÄ«µå					|		Carta Obeaune
+4094#Archer_Skeleton_Card#				//		¾ÆÃÄ½ºÄÌÅæÄ«µå				|		Carta Esqueleto Arqueiro
+4095#Marse_Card#						//		¸¶¸£½ºÄ«µå					|		Carta Marte
+4096#Zenorc_Card#						//		Á¦³ëÅ©Ä«µå					|		Carta Zenorc
+4097#Matyr_Card#						//		¸¶Å¸Ä«µå					|		Carta Matyr
+4098#Dokebi_Card#						//		µµ±úºñÄ«µå					|		Carta Dokebi
+4099#Pasana_Card#						//		ÆÄ»ç³ªÄ«µå					|		Carta Pasana
+4100#Sohee_Card#						//		¼ÒÈñÄ«µå					|		Carta Sohee
+4101#Sand_Man_Card#						//		»÷µå¸ÇÄ«µå					|		Carta Arenoso
+4102#Whisper_Card#						//		À§½ºÆÛÄ«µå					|		Carta Sussurro
+4103#Horong_Card#						//		È£·ÕÄ«µå					|		Carta Horong
+4104#Requiem_Card#						//		·¹Äû¿¥Ä«µå					|		Carta Requiem
+4105#Marc_Card#							//		¸¶¸£Å©Ä«µå					|		Carta Cavalo-Marinho
+4106#Mummy_Card#						//		¹ÌÀÌ¶óÄ«µå					|		Carta Mumia
+4107#Verit_Card#						//		º£¸´Æ®Ä«µå					|		Carta Verit
+4108#Myst_Card#							//		¹Ì½ºÆ®Ä«µå					|		Carta Nevoa
+4109#Jakk_Card#							//		ÀèÄ«µå						|		Carta Jakk
+4110#Ghoul_Card#						//		±¸¿ïÄ«µå					|		Carta Carnical
+4111#Strouf_Card#						//		½ºÆ®¶ó¿ìÇÁÄ«µå				|		Carta Strouf
+4112#Marduk_Card#						//		¸¶¸£µÎÅ©Ä«µå					|		Carta Marduk
+4113#Marionette_Card#					//		¸¶¸®¿À³×Æ®Ä«µå				|		Carta Marionete
+4114#Argiope_Card#						//		¾Æ¸£Áö¿ÀÇÁÄ«µå				|		Carta Argiope
+4115#Hunter_Fly_Card#					//		ÇåÅÍÇÃ¶óÀÌÄ«µå				|		Carta Mosca Cacadora
+4116#Isis_Card#							//		ÀÌ½Ã½ºÄ«µå					|		Carta Isis
+4117#Side_Winder_Card#					//		½ÖµÎ¹ìÄ«µå					|		Carta Sorrateiro
+4118#Petit_Card#						//		Áö»ó»Ú¶ìÄ«µå					|		Carta Petite
+4119#Bathory_Card#						//		¹Ù¼Ò¸®Ä«µå					|		Carta Bathory
+4120#Petit__Card#						//		°øÁß»Ú¶ìÄ«µå					|		Carta Petite Voador
+4121#Phreeoni_Card#						//		ÇÁ¸®¿À´ÏÄ«µå					|		Carta Freeoni
+4122#Deviruchi_Card#					//		µ¥ºñ·çÄ¡Ä«µå					|		Carta Deviruchi
+4123#Eddga_Card#						//		¿¡µå°¡Ä«µå					|		Carta Eddga
+4124#Medusa_Card#						//		¸ÞµÎ»çÄ«µå					|		Carta Medusa
+4125#Deviace_Card#						//		µ¥ºñ¾î½ºÄ«µå					|		Carta Deviace
+4126#Minorous_Card#						//		È²¼ÒÄ«µå					|		Carta Minorous
+4127#Nightmare_Card#					//		³ªÀÌÆ®¸Þ¾îÄ«µå				|		Carta Pesadelo
+4128#Golden_Bug_Card#					//		±ÝµµµÏ¹ú·¹Ä«µå				|		Carta Besouro-Ladrao Dourado
+4129#Baphomet__Card#					//		¹ÙÆ÷ÁÖ´Ï¾îÄ«µå				|		Carta Bafome Jr.
+4130#Scorpion_King_Card#				//		½ºÄÝÇÇ¾ðÅ·Ä«µå				|		Carta Rei Escorpiao
+4131#Moonlight_Flower_Card#				//		¿ù¾ßÈ­Ä«µå					|		Carta Flor do Luar
+4132#Mistress_Card#						//		¹Ì½ºÆ®·¹½ºÄ«µå				|		Carta Abelha-Rainha
+4133#Daydric_Card#						//		·¹ÀÌµå¸¯Ä«µå					|		Carta Raydric
+4134#Dracula_Card#						//		µå¶óÅ¥¶óÄ«µå					|		Carta Dracula
+4135#Orc_Load_Card#						//		¿ÀÅ©·ÎµåÄ«µå					|		Carta Senhor dos Orcs
+4136#Khalitzburg_Card#					//		½ºÄÌ³ªÀÌÆ®Ä«µå				|		Carta Khalitzburg
+4137#Drake_Card#						//		µå·¹ÀÌÅ©Ä«µå					|		Carta Drake
+4138#Anubis_Card#						//		¾Æ´©ºñ½ºÄ«µå					|		Carta Anubis
+4139#Joker_Card#						//		Á¶Ä¿Ä«µå					|		Carta Coringa
+4140#Knight_Of_Abyss_Card#				//		Ä®¸®Ã÷¹ö±×Ä«µå				|		Carta Cavaleiro do Abismo
+4141#Evil_Druid_Card#					//		µå·çÀÌµåÄ«µå					|		Carta Druida Maligno
+4142#Doppelganger_Card#					//		µµÇÃ°»¾îÄ«µå					|		Carta Doppelganger
+4143#Orc_Hero_Card#						//		¿ÀÅ©È÷¾î·ÎÄ«µå				|		Carta Orc Heroi
+4144#Osiris_Card#						//		¿À½Ã¸®½ºÄ«µå					|		Carta Osiris
+4145#Berzebub_Card#						//		º£¸£Á¦ºêºêÄ«µå				|		Carta Belzebu
+4146#Maya_Card#							//		¸¶¾ßÄ«µå					|		Carta Maya
+4147#Baphomet_Card#						//		¹ÙÆ÷¸ÞÆ®Ä«µå					|		Carta Bafome
+4148#Pharaoh_Card#						//		ÆÄ¶ó¿ÀÄ«µå					|		Carta Farao
+4149#Gargoyle_Card#						//		°¡°íÀÏÄ«µå					|		Carta Gargula
+4150#Goat_Card#							//		°í¿ìÆ®Ä«µå					|		Carta Bode
+4151#Gajomart_Card#						//		°¡Á¶¸¶¸£Æ®Ä«µå				|		Carta Gajomart
+4152#Galapago_Card#						//		°¥¶óÆÄ°íÄ«µå					|		Carta Pingu
+4153#Crab_Card#							//		°ÔÄ«µå						|		Carta Caranguejo
+4154#Rice_Cake_Boy_Card#				//		°æ´Üµ¿ÀÚÄ«µå					|		Carta Pirralho
+4155#Goblin_Leader_Card#				//		°íºí¸°¸®´õÄ«µå				|		Carta Lider Goblin
+4156#Steam_Goblin_Card#					//		°íºí¸°½ºÆÀ¶óÀÌ´õÄ«µå				|		Carta Goblin a Vapor
+4157#Goblin_Archer_Card#				//		°íºí¸°¾ÆÃÄÄ«µå				|		Carta Goblin Arqueiro
+4158#Flying_Deleter_Card#				//		°øÁßµô¸®ÅÍÄ«µå				|		Carta Exterminador Voador
+4159#Nine_Tail_Card#					//		±¸¹ÌÈ£Ä«µå					|		Carta Nove Caudas
+4160#Antique_Firelock_Card#				//		±¸½ÄÁ¶ÃÑº´Ä«µå				|		Carta Soldado Atirador
+4161#Grand_Peco_Card#					//		±×·£µåÆäÄÚÄ«µå				|		Carta Grand Peco
+4162#Grizzly_Card#						//		±×¸®Áñ¸®Ä«µå					|		Carta Grizzly
+4163#Gryphon_Card#						//		±×¸®ÆùÄ«µå					|		Carta Grifo
+4164#Gullinbursti_Card#					//		±Û¸°ºÎ¸£½ºÆ¼Ä«µå				|		Carta Gullinbursti
+4165#Gig_Card#							//		±â±×Ä«µå					|		Carta Ferrao
+4166#Nightmare_Terror_Card#				//		³ªÀÌÆ®¸Þ¾îÅ×·¯Ä«µå				|		Carta Pesadelo Sombrio
+4167#Neraid_Card#						//		³×·¹ÀÌµåÄ«µå					|		Carta Nereida
+4168#Dark_Lord_Card#					//		´ÙÅ©·ÎµåÄ«µå					|		Carta Senhor das Trevas
+4169#Dark_Illusion_Card#				//		´ÙÅ©ÀÏ·çÁ¯Ä«µå				|		Carta Ilusao das Trevas
+4170#Dark_Frame_Card#					//		´ÙÅ©ÇÁ·¹ÀÓÄ«µå				|		Carta Moldura Maldita
+4171#Dark_Priest_Card#					//		´ÙÅ©ÇÁ¸®½ºÆ®Ä«µå				|		Carta Sacerdote Maldito
+4172#The_Paper_Card#					//		´õÆäÀÌÆÛÄ«µå					|		Carta Papel
+4173#Demon_Pungus_Card#					//		µ¥¸óÆã°Å½ºÄ«µå				|		Carta Pungus
+4174#Deviling_Card#						//		µ¥ºô¸µÄ«µå					|		Carta Deviling
+4175#Poison_Toad_Card#					//		µ¶µÎ²¨ºñÄ«µå					|		Carta Sapo Venenoso
+4176#Dullahan_Card#						//		µâ¶óÇÑÄ«µå					|		Carta Dullahan
+4177#Dryad_Card#						//		µå¶óÀÌ¾îµåÄ«µå				|		Carta Driade
+4178#Dragon_Tail_Card#					//		µå·¡°ïÅ×ÀÏÄ«µå				|		Carta Lavadeira
+4179#Dragon_Fly_Card#					//		µå·¡°ïÇÃ¶óÀÌÄ«µå				|		Carta Libelula
+4180#Driller_Card#						//		µå¸±·¯Ä«µå					|		Carta Furador
+4181#Disguise_Card#						//		µð½º°¡ÀÌÁîÄ«µå				|		Carta Mascarado
+4182#Diabolic_Card#						//		µð¾Æº¼¸¯Ä«µå					|		Carta Diabolico
+4183#Vagabond_Wolf_Card#				//		¶°µ¹ÀÌ´Á´ëÄ«µå				|		Carta Lobo Errante
+4184#Lava_Golem_Card#					//		¶ó¹Ù°ñ·½Ä«µå					|		Carta Golem de Lava
+4185#Rideword_Card#						//		¶óÀÌµå¿öµåÄ«µå				|		Carta Rideword
+4186#Raggler_Card#						//		·¹±Û·¯Ä«µå					|		Carta Raggler
+4187#Raydric_Archer_Card#				//		·¹ÀÌµå¸¯¾ÆÃÄÄ«µå				|		Carta Raydric Arqueiro
+4188#Leib_Olmai_Card#					//		·¹ÀÌºê¿Ã¸¶ÀÌÄ«µå				|		Carta Leib Olmai
+4189#Wraith_Dead_Card#					//		·¹ÀÌ½ºµ¥µåÄ«µå				|		Carta Aparicao
+4190#Wraith_Card#						//		·¹ÀÌ¾²Ä«µå					|		Carta Alma Penada
+4191#Loli_Ruri_Card#					//		·Î¸®·ç¸®Ä«µå					|		Carta Loli Ruri
+4192#Rotar_Zairo_Card#					//		·ÎÅÍÀÚÀÌ·ÎÄ«µå				|		Carta Giro-Goblin
+4193#Lude_Card#							//		·çµåÄ«µå					|		Carta Lude
+4194#Rybio_Card#						//		¸®ºñ¿ÀÄ«µå					|		Carta Rybio
+4195#Leaf_Cat_Card#						//		¸®ÇÁÄ¹Ä«µå					|		Carta Gato de Folha
+4196#Marin_Card#						//		¸¶¸°Ä«µå					|		Carta Marin
+4197#Mastering_Card#					//		¸¶½ºÅÍ¸µÄ«µå					|		Carta Mastering
+4198#Maya_Puple_Card#					//		¸¶¾ßÆÛÇÃÄ«µå					|		Carta Maya Macho
+4199#Merman_Card#						//		¸Ó¸ÇÄ«µå					|		Carta Tritao
+4200#Megalith_Card#						//		¸Þ°¥¸®½ºÄ«µå					|		Carta Megalith
+4201#Majoruros_Card#					//		¸ÞÀÌÀú¿ì·Î½ºÄ«µå				|		Carta Majoruros
+4202#Civil_Servant_Card#				//		¹¦±«Ä«µå					|		Carta Mao Guai
+4203#Mutant_Dragon_Card#				//		¹ÂÅÏÆ®µå·¡°í³ëÀÌµåÄ«µå			|		Carta Dragao Mutante
+4204#Mini_Demon_Card#					//		¹Ì´Ïµ¥¸óÄ«µå					|		Carta Diabinho
+4205#Mimic_Card#						//		¹Ì¹ÍÄ«µå					|		Carta Mimico
+4206#Mystcase_Card#						//		¹Ì½ºÆ®ÄÉÀÌ½ºÄ«µå				|		Carta Presente
+4207#Mysteltainn_Card#					//		¹Ì½ºÆ¿Å×ÀÎÄ«µå				|		Carta Mysteltainn
+4208#Miyabi_Ningyo_Card#				//		¹Ì¾ßºñÀÎÇüÄ«µå				|		Carta Boneco de Miyabi
+4209#Violy_Card#						//		¹ÙÀÌ¿Ã¸®Ä«µå					|		Carta Violinista
+4210#Wander_Man_Card#					//		¹èÈ¸ÇÏ´ÂÀÚÄ«µå				|		Carta Andarilho
+4211#Vocal_Card#						//		º¸ÄÃÄ«µå					|		Carta Vocal
+4212#Bon_Gun_Card#						//		º»°ÇÄ«µå					|		Carta Bongun
+4213#Brilight_Card#						//		ºê¸±¶óÀÌÆ®Ä«µå				|		Carta Escaravelho
+4214#Bloody_Murderer_Card#				//		ºí·¯µð¸Ó´õ·¯Ä«µå				|		Carta Serial Killer
+4215#Blazzer_Card#						//		ºí·¹ÀÌÀúÄ«µå					|		Carta Labareda
+4216#Sasquatch_Card#					//		»ç½ºÄâÄ¡Ä«µå					|		Carta Sasquatch
+4217#Live_Peach_Tree_Card#				//		»ýµµ¸ñÄ«µå					|		Carta Pessegueira Encantada
+4218#Succubus_Card#						//		¼­Å¥¹ö½ºÄ«µå					|		Carta Succubus
+4219#Sageworm_Card#						//		¼¼ÀÌÁö¿úÄ«µå					|		Carta Verme Sabio
+4220#Solider_Card#						//		¼Ö¸®´õÄ«µå					|		Carta Soldado
+4221#Skeleton_General_Card#				//		½ºÄÌ·¹ÅæÁ¦³×·²Ä«µå				|		Carta Esqueleto General
+4222#Skel_Prisoner_Card#				//		½ºÄÌÇÁ¸®Áî³ÊÄ«µå				|		Carta Esqueleto Prisioneiro
+4223#Stalactic_Golem_Card#				//		½ºÅÍ·¢Æ½°í·½Ä«µå				|		Carta Golem Estalactitico
+4224#Stem_Worm_Card#					//		½ºÅÛ¿úÄ«µå					|		Carta Talo de Verme
+4225#Stone_Shooter_Card#				//		½ºÅæ½´ÅÍÄ«µå					|		Carta Atirador de Pedras
+4226#Sting_Card#						//		½ºÆÃÄ«µå					|		Carta Sting
+4227#Spring_Rabbit_Card#				//		½ºÇÁ¸µ·¡ºøÄ«µå				|		Carta Coelho
+4228#Sleeper_Card#						//		½½¸®ÆÛÄ«µå					|		Carta Rochoso
+4229#C_Tower_Manager_Card#				//		½Ã°èÅ¾°ü¸®ÀÚÄ«µå				|		Carta Gerente
+4230#Shinobi_Card#						//		½Ã³ëºñÄ«µå					|		Carta Shinobi
+4231#Increase_Soil_Card#				//		½Ä¾çÄ«µå					|		Carta Mi Gao
+4232#Wild_Ginseng_Card#					//		½Å¼±ÃÊÄ«µå					|		Carta Ermitao Selvagem
+4233#Baby_Leopard_Card#					//		¾Æ±âÇ¥¹üÄ«µå					|		Carta Leopardo Filhote
+4234#Anolian_Card#						//		¾Æ³î¸®¾ÈÄ«µå					|		Carta Anolian
+4235#Cookie_XMAS_Card#					//		XMASÄíÅ°Ä«µå				|		Carta Cookie Natalino
+4236#Amon_Ra_Card#						//		¾Æ¸ó¶óÄ«µå					|		Carta Amon-Ra
+4237#Owl_Duke_Card#						//		¾Æ¿ïµàÅ©Ä«µå					|		Carta Duque Coruja
+4238#Owl_Baron_Card#					//		¾Æ¿ï¹Ù·ÐÄ«µå					|		Carta Barao Coruja
+4239#Iron_Fist_Card#					//		¾ÆÀÌ¾ðÇÇ½ºÆ®Ä«µå				|		Carta Mao de Ferro
+4240#Arclouse_Card#						//		¾ÆÅ©¶ó¿ì½ºÄ«µå				|		Carta Arclouse
+4241#Archangeling_Card#					//		¾ÆÅ©¿£Á©¸µÄ«µå				|		Carta ArchAngeling
+4242#Apocalips_Card#					//		¾ÆÆ÷Ä®¸³½ºÄ«µå				|		Carta Apocalipse
+4243#Antonio_Card#						//		¾ÈÅä´Ï¿ÀÄ«µå					|		Carta Antonio
+4244#Alarm_Card#						//		¾Ë¶÷Ä«µå					|		Carta Alarme
+4245#Am_Mut_Card#						//		¾Ï¹«Æ®Ä«µå					|		Carta Am Mut
+4246#Assulter_Card#						//		¾îÀýÅÍÄ«µå					|		Carta Agressor
+4247#Aster_Card#						//		¿¡½ºÅÍÄ«µå					|		Carta Estrela-do-Mar
+4248#Ancient_Mummy_Card#				//		¿¡ÀÎ¼ÇÆ®¹ÌÀÌ¶óÄ«µå				|		Carta Mumia Ancia
+4249#Ancient_Worm_Card#					//		¿¡ÀÎ¼ÇÆ®¿úÄ«µå				|		Carta Verme Anciao
+4250#Executioner_Card#					//		¿¢¼­Å¥¼­³ÊÄ«µå				|		Carta Executor
+4251#Elder_Card#						//		¿¤´õÄ«µå					|		Carta Anciao
+4252#Alligator_Card#					//		¿¤¸®°ÔÀÌÅÍÄ«µå				|		Carta Crocodilo
+4253#Alice_Card#						//		¿¤¸®½ºÄ«µå					|		Carta Alice
+4254#Tirfing_Card#						//		¿À¿ì°ÅÅõ½ºÄ«µå				|		Carta Tirfing
+4255#Orc_Lady_Card#						//		¿ÀÅ©·¹ÀÌµðÄ«µå				|		Carta Senhora Orc
+4256#Orc_Archer_Card#					//		¿ÀÅ©¾ÆÃÄÄ«µå					|		Carta Orc Arqueiro
+4257#Wild_Rose_Card#					//		¿ÍÀÏµå·ÎÁîÄ«µå				|		Carta Rosa Selvagem
+4258#Wicked_Nymph_Card#					//		¿ä¼±³àÄ«µå					|		Carta Ninfa Perversa
+4259#Wooden_Golem_Card#					//		¿ìµç°ñ·½Ä«µå					|		Carta Golem de Madeira
+4260#Wootan_Shooter_Card#				//		¿ìÅº½´ÅÍÄ«µå					|		Carta Artilheiro Wootan
+4261#Wootan_Fighter_Card#				//		¿ìÅºÆÄÀÌÅÍÄ«µå				|		Carta Guerreiro Wootan
+4262#Evil_Cloud_Hermit_Card#			//		¿î¾Ç¼±Ä«µå					|		Carta Ermitao Maligno
+4263#Incant_Samurai_Card#				//		¿ø·É¹«»çÄ«µå					|		Carta Samurai Encarnado
+4264#Wind_Ghost_Card#					//		À©µå°í½ºÆ®Ä«µå				|		Carta Xama do Vento
+4265#Li_Me_Mang_Ryang_Card#				//		ÀÌ¸Å¸Á·®Ä«µå					|		Carta Jing Guai
+4266#Eclipse_Card#						//		ÀÌÅ¬¸³½ºÄ«µå					|		Carta Eclipse
+4267#Explosion_Card#					//		ÀÍ½ºÇÃ·ÎÁ¯Ä«µå				|		Carta Estrondo
+4268#Injustice_Card#					//		ÀÎÀú½ºÆ¼½ºÄ«µå				|		Carta Injusticado
+4269#Incubus_Card#						//		ÀÎÅ¥¹ö½ºÄ«µå					|		Carta Inccubus
+4270#Giant_Spider_Card#					//		ÀÚÀÌ¾ðÆ®½ºÆÄÀÌ´õÄ«µå				|		Carta Aranha Gigante
+4271#Giant_Honet_Card#					//		ÀÚÀÌ¾ðÆ®È£³ÝÄ«µå				|		Carta Zangao Gigante
+4272#Dancing_Dragon_Card#				//		ÀúÆÄ·æÄ«µå					|		Carta Zhu Po Long
+4273#Shellfish_Card#					//		Á¶°³Ä«µå					|		Carta Molusco
+4274#Zombie_Master_Card#				//		Á»ºñ¸¶½ºÅÍÄ«µå				|		Carta Zumbi Mestre
+4275#Zombie_Prisoner_Card#				//		Á»ºñÇÁ¸®Áî³ÊÄ«µå				|		Carta Zumbi Prisioneiro
+4276#Lord_Of_Death_Card#				//		Á×ÀºÀÚÀÇÁÖÀÎÄ«µå				|		Carta Senhor dos Mortos
+4277#Zherlthsh_Card#					//		Áö¸£Å¸½ºÄ«µå					|		Carta Jirtas
+4278#Gibbet_Card#						//		ÁöºªÆ®Ä«µå					|		Carta Arvore Maldita
+4279#Deleter_Card#						//		Áö»óµô¸®ÅÍÄ«µå				|		Carta Exterminador Terrestre
+4280#Geographer_Card#					//		Áö¿À±×·¡ÆÛÄ«µå				|		Carta Planta Carnivora
+4281#Zipper_Bear_Card#					//		ÁöÆÛº£¾îÄ«µå					|		Carta Zipper
+4282#Tengu_Card#						//		Ãµ±¸Ä«µå					|		Carta Tengu
+4283#Greatest_General_Card#				//		ÃµÇÏ´ëÀå±ºÄ«µå				|		Carta Guardiao da Floresta
+4284#Chepet_Card#						//		Ã¼ÆêÆ®Ä«µå					|		Carta Chepet
+4285#Choco_Card#						//		ÃÝÄÚÄ«µå					|		Carta Choco
+4286#Karakasa_Card#						//		Ä«¶óÄ«»çÄ«µå					|		Carta Karakasa
+4287#Kapha_Card#						//		Ä±ÆÄÄ«µå					|		Carta Kapha
+4288#Carat_Card#						//		Ä³·µÄ«µå					|		Carta Carat
+4289#Caterpillar_Card#					//		Ä³ÅÍÇÊ·¯Ä«µå					|		Carta Lagarta
+4290#Cat_O_Nine_Tail_Card#				//		Ä¹¿À³ªÀÎÅ×ÀÏÄ«µå				|		Carta Gato de Nove Caudas
+4291#Kobold_Leader_Card#				//		ÄÚº¼Æ®¸®´õÄ«µå				|		Carta Lider Cobold
+4292#Kobold_Archer_Card#				//		ÄÚº¼Æ®¾ÆÃÄÄ«µå				|		Carta Cobold Arqueiro
+4293#Cookie_Card#						//		ÄíÅ°Ä«µå					|		Carta Cookie
+4294#Quve_Card#							//		Å¥ºêÄ«µå					|		Carta Quve
+4295#Kraben_Card#						//		Å©¶óº¥Ä«µå					|		Carta Kraben
+4296#Cramp_Card#						//		Å©·¥ÇÁÄ«µå					|		Carta Caibra
+4297#Cruiser_Card#						//		Å©·çÀÌÁ®Ä«µå					|		Carta Soldadinho de Chumbo
+4298#Cremy_Fear_Card#					//		Å©¸®¹ÌÇÇ¾îÄ«µå				|		Carta Creamy Ameacador
+4299#Clock_Card#						//		Å¬¶ôÄ«µå					|		Carta Relogio
+4300#Chimera_Card#						//		Å°¸Þ¶óÄ«µå					|		Carta Quimera
+4301#Killer_Mantis_Card#				//		Å³·¯¸ÇÆ¼½ºÄ«µå				|		Carta Mantis Assassino
+4302#Tao_Gunka_Card#					//		Å¸¿À±ºÄ«Ä«µå					|		Carta Tao Gunka
+4303#Whisper_Boss_Card#					//		°Å´ëÀ§½ºÆÛÄ«µå				|		Carta Cochicho
+4304#Tamruan_Card#						//		Å½·ç¾ÈÄ«µå					|		Carta Tamruan
+4305#Turtle_General_Card#				//		ÅÍÆ²Á¦³×·²Ä«µå				|		Carta General Tartaruga
+4306#Toad_Card#							//		ÅäµåÄ«µå					|		Carta Sapo-Cururu
+4307#Kind_Of_Beetle_Card#				//		Åõ±¸¹ú·¹Ä«µå					|		Carta Besouro-Rei
+4308#Tri_Joint_Card#					//		Æ®¶óÀÌÁ¶ÀÎÆ®Ä«µå				|		Carta Trilobita
+4309#Parasite_Card#						//		ÆÐ·¯»çÀÌÆ®Ä«µå				|		Carta Parasita
+4310#Panzer_Goblin_Card#				//		ÆÒÀú°íºí¸°Ä«µå				|		Carta Panzer Goblin
+4311#Permeter_Card#						//		ÆÛ¸ÓÅÍÄ«µå					|		Carta Batedor
+4312#Fur_Seal_Card#						//		ÆÛ¾ÁÄ«µå					|		Carta Foca
+4313#Punk_Card#							//		ÆãÅ©Ä«µå					|		Carta Punk
+4314#Penomena_Card#						//		Æä³ë¸Þ³ªÄ«µå					|		Carta Penomena
+4315#Pest_Card#							//		Æä½ºÆ®Ä«µå					|		Carta Peste
+4316#Fake_Angel_Card#					//		ÆäÀÌÅ©¿£Á©Ä«µå				|		Carta Anjo Fajuto
+4317#Mobster_Card#						//		Æø·Â¹èÄ«µå					|		Carta Yakuza
+4318#Knight_Windstorm_Card#				//		ÆøÇ³ÀÇ±â»çÄ«µå				|		Carta Cavaleiro da Tempestade
+4319#Freezer_Card#						//		ÇÁ¸®ÀúÄ«µå					|		Carta Congelador
+4320#Bloody_Knight_Card#				//		ÇÇºûÀÇ±â»çÄ«µå				|		Carta Cavaleiro Sanguinario
+4321#Hylozoist_Card#					//		ÇÏÀÌ·ÎÁ¶ÀÌ½ºÆ®Ä«µå				|		Carta Poltergeist
+4322#High_Orc_Card#						//		ÇÏÀÌ¿ÀÅ©Ä«µå					|		Carta Grand Orc
+4323#Garm_Baby_Card#					//		ÇÏÆ¼º£º£Ä«µå					|		Carta Filhote de Hatii
+4324#Garm_Card#							//		ÇÏÆ¼Ä«µå					|		Carta Hatii
+4325#Harpy_Card#						//		ÇÏÇÇÄ«µå					|		Carta Harpia
+4326#See_Otter_Card#					//		ÇØ´ÞÄ«µå					|		Carta Lontra
+4327#Blood_Butterfly_Card#				//		Ç÷È£Á¢Ä«µå					|		Carta Borboleta Sanguinaria
+4328#Hyegun_Card#						//		Çý±ºÄ«µå					|		Carta Yao Jun
+4329#Phendark_Card#						//		ÈÓ´Ù¸£Å©Ä«µå					|		Carta Fendark
+4330#Dark_Snake_Lord_Card#				//		Èæ»ç¿ÕÄ«µå					|		Carta Serpente Suprema
+4331#Heater_Card#						//		È÷ÅÍÄ«µå					|		Carta Aquecedor
+4332#Waste_Stove_Card#					//		°íÃ¶³­·Î					|		Carta Fornalha Velha
+4333#Venomous_Card#						//		º£³ë¸Ó½º					|		Carta Nuvem Venenosa
+4334#Noxious_Card#						//		³ì½Ã¾î½º					|		Carta Nuvem Toxica
+4335#Pitman_Card#						//		ÇÍ¸Ç						|		Carta Mineiros
+4336#Ungoliant_Card#					//		¿î°ñ¸®¾ÈÆ®					|		Carta Ungoliant
+4337#Porcellio_Card#					//		Æú¼¿¸®¿À					|		Carta Porcellio
+4338#Obsidian_Card#						//		¿É½Ãµð¾ð					|		Carta Obsidiana
+4339#Mineral_Card#						//		¹Ì³×¶ö						|		Carta Mineral
+4340#Teddy_Bear_Card#					//		°õÀÎÇü						|		Carta Ursinho
+4341#Metaling_Card#						//		¸ÞÅ»¸µ						|		Carta Metaling
+4342#Rsx_0806_Card#						//		RSX0806Ä«µå				|		Carta RSX-0806
+4343#Mole_Card#							//		È¦µ§						|		Carta Holden
+4344#Anopheles_Card#					//		À§·¹½ºÄ«µå					|		Carta Anopheles
+4345#Hill_Wind_Card#					//		ÈúÀ©µåÄ«µå					|		Carta Vento da Colina
+4346#Ygnizem_Card#						//		ÀÌ±×´ÏÁª¼¼´Ï¾ÆÄ«µå				|		Carta Egnigem Cenia
+4347#Armaia_Card#						//		¾Æ¸£¸¶ÀÌ¾îµòÁ¦Ä«µå				|		Carta Armeyer Dinze
+4348#Whikebain_Card#					//		ÈÖÄÉ¹ÙÀÎÆ®¸®½ºÄ«µå				|		Carta Wickebine Tres
+4349#Erend_Card#						//		ÀÌ·»µå¿¡º£½ÃÄ«µå				|		Carta Errende Ebecee
+4350#Rawrel_Card#						//		¶ó¿ì·¼ºá´õÄ«µå				|		Carta Laurell Weinder
+4351#Kavac_Card#						//		Ä«¹ÙÅ©ÀÌÄ«·ç½ºÄ«µå				|		Carta Kavach Icarus
+4352#B_Ygnizem_Card#					//		º¸½ºÀÌ±×´ÏÁªÄ«µå				|		Carta Egnigem Cenia [Chefe]
+4353#Removal_Card#						//		¸®¹«¹öÄ«µå					|		Carta Remover
+4354#Gemini_Card#						//		Á¦¹Ì´Ï						|		Carta Gemini-S58
+4355#Gremlin_Card#						//		±×·½¸°Ä«µå					|		Carta Gremlin
+4356#Beholder_Card#						//		ºñÈ¦´õ						|		Carta Beholder
+4357#B_Seyren_Card#						//		·Îµå³ªÀÌÆ®Ä«µå				|		Carta Lorde Seyren
+4358#Seyren_Card#						//		¼¼ÀÌ·»À©ÀúÄ«µå				|		Carta Seyren Windsor
+4359#B_Eremes_Card#						//		¾î½Ø½ÅÅ©·Î½ºÄ«µå				|		Carta Algoz Eremes
+4360#Eremes_Card#						//		¿¡·¹¸Þ½º°¡ÀÏÄ«µå				|		Carta Eremes Guile
+4361#B_Harword_Card#					//		È­ÀÌÆ®½º¹Ì½ºÄ«µå				|		Carta Mestre-ferreiro Howard
+4362#Harword_Card#						//		ÇÏ¿öµå¾ËÆ®¾ÆÀÌÁ¨Ä«µå				|		Carta Howard Alt-Eisen
+4363#B_Magaleta_Card#					//		ÇÏÀÌÇÁ¸®½ºÆ®					|		Carta Sumo Sacerdotisa Margaretha
+4364#Magaleta_Card#						//		¸¶°¡·¹Å¸¼Ò¸°Ä«µå				|		Carta Margaretha Sorin
+4365#B_Katrinn_Card#					//		ÇÏÀÌÀ§ÀÚµåÄ«µå				|		Carta Arquimaga Kathryne
+4366#Katrinn_Card#						//		Ä«Æ®¸°´ÀÄÉÀÌ·ÐÄ«µå				|		Carta Kathryne Keyron
+4367#B_Shecil_Card#						//		½º³ªÀÌÆÛÄ«µå					|		Carta Atirador de Elite Cecil
+4368#Shecil_Card#						//		¼Î½Çµð¸ÕÄ«µå					|		Carta Cecil Damon
+4369#Venatu_Card#						//		º£³ªÅõ						|		Carta Venatu
+4370#Dimik_Card#						//		µð¹ÌÅ©Ä«µå					|		Carta Dimik
+4371#Archdam_Card#						//		¾ÆÅ©´ã						|		Carta Archdam
+4372#Bacsojin_Card#						//		¹é¼ÒÁø						|		Carta Dama de Branco
+4373#Chung_E_Card#						//		Ã»ÀÌ						|		Carta Donzela Verde
+4374#Apocalips_H_Card#					//		º£½ºÆÛÄ«µå					|		Carta Vesper
+4375#Orc_Baby_Card#						//		¿ÀÅ©º£ÀÌºñ					|		Carta Filhote de Orc
+4376#Lady_Tanee_Card#					//		Å¸´Ï¾Æ°¡¾¾					|		Carta Lady Tanee
+4377#Green_Iguana_Card#					//		±×·Îºê						|		Carta Grove
+4378#Acidus_Card#						//		°ñµå¾î½Ã´õ½º					|		Carta Acidus Dourado
+4379#Acidus__Card#						//		ºí·ç¾î½Ã´õ½ºÄ«µå				|		Carta Acidus Azul
+4380#Ferus_Card#						//		·¹µåÆä·¯½ºÄ«µå				|		Carta Ferus Escarlate
+4381#Ferus__Card#						//		±×¸°Æä·¯½ºÄ«µå				|		Carta Ferus Verde
+4382#Novus__Card#						//		¿»·Î¿ì³ë¹ö½º					|		Carta Novus Dourado
+4383#Novus_Card#						//		·¹µå³ë¹ö½º					|		Carta Novus Escarlate
+4384#Hydro_Card#						//		ÇÏÀÌµå·Î·£¼­					|		Carta Hydrolancer
+4385#Dragon_Egg_Card#					//		µå·¡°ïÀÇ¾Ë					|		Carta Ovo de Dragao
+4386#Detale_Card#						//		µðÅ¸¸£µ¥¿ì¸£½ºÄ«µå				|		Carta Detardeurus
+4387#Ancient_Mimic_Card#				//		¿¡ÀÎ¼ÇÆ®¹Ì¹Í					|		Carta Mimico Antigo
+4388#Deathword_Card#					//		µ¥½º¿öµå					|		Carta Palavra Morta
+4389#Plasma_Card#						//		ÇÃ¶óÁî¸¶					|		Carta Plasma
+4390#Breeze_Card#						//		»êµé¹Ù¶÷					|		Carta Breeze
+4391#Retribution_Card#					//		½Å¹úÀÇ´ëÇàÀÚÄ«µå				|		Carta Baronesa da Retribuicao
+4392#Observation_Card#					//		°¨½ÃÇÏ´ÂÀÚÄ«µå				|		Carta Dama da Guarda
+4393#Shelter_Card#						//		¾È½ÄÀ»ÁÖ´ÂÀÚÄ«µå				|		Carta Senhora do Abrigo
+4394#Solace_Card#						//		À§·ÎÇÏ´ÂÀÚ					|		Carta Senhora do Conforto
+4395#Tha_Maero_Card#					//		Å¸³ªÅä½ºÀÇ½½ÇÄ				|		Carta Maero de Thanatos
+4396#Tha_Odium_Card#					//		Å¸³ª³ë½ºÀÇÁõ¿À				|		Carta Odium de Thanatos
+4397#Tha_Despero_Card#					//		Å¸³ªÅä½ºÀÇÀý¸Á				|		Carta Despero de Thanatos
+4398#Tha_Dolor_Card#					//		Å¸³ªÅä½ºÀÇ°í³ú				|		Carta Pesar de Thanatos
+4399#Thanatos_Card#						//		Å¸³ªÅä½ºÀÇ±â¾ïÄ«µå				|		Carta Memoria de Thanatos
+4400#Aliza_Card#						//		¿¤¸®ÀÚ						|		Carta Aliza
+4401#Alicel_Card#						//		¿¤¸®¼¿						|		Carta Alicel
+4402#Aliot_Card#						//		¿¤¸®¾ù						|		Carta Aliot
+4403#Kiel_Card#							//		Å°¿¤Ä«µå					|		Carta Kiel-D-01
+4404#Skogul_Card#						//		½ºÄÚ±Û						|		Carta Skogul
+4405#Frus_Card#							//		ÇÁ·ç½º						|		Carta Frus
+4406#Skeggiold_Card#					//		½ºÄÉ°ñÆ®					|		Carta Skeggiold
+4407#Randgris_Card#						//		¶õµå±×¸®½º					|		Carta Valquiria Randgris
+4408#Gloom_Under_Night_Card#			//		±Û·ë¾ð´õ³ªÀÌÆ®Ä«µå				|		Carta Pesar Noturno
+4409#Agav_Card#							//		¾Æ°¡ºêÄ«µå					|		Carta Agav
+4410#Echio_Card#						//		¿¡Å°¿ÀÄ«µå					|		Carta Echio
+4411#Vanberk_Card#						//		ÆÇº£¸£Å©Ä«µå					|		Carta Vanberk
+4412#Isilla_Card#						//		ÀÌ½Ç¶óÄ«µå					|		Carta Isilla
+4413#Hodremlin_Card#					//		È£µå·½¸°Ä«µå					|		Carta Hodremlin
+4414#Seeker_Card#						//		½ÃÄ¿Ä«µå					|		Carta Rastreador
+4415#Snowier_Card#						//		½º³ëÀÌ¾îÄ«µå					|		Carta Yeti
+4416#Siroma_Card#						//		½Ã·Î¸¶Ä«µå					|		Carta Siroma
+4417#Ice_Titan_Card#					//		¾ÆÀÌ½ºÆ¼ÅºÄ«µå				|		Carta Tita de Gelo
+4418#Gazeti_Card#						//		°¡¿¡ÁîÆ¼Ä«µå					|		Carta Gazeti
+4419#Ktullanux_Card#					//		Å©Åø¶ó³«½ºÄ«µå				|		Carta Ktullanux
+4420#Muscipular_Card#					//		¸Ó½ºÅ°Ç½¶óÄ«µå				|		Carta Muscipular
+4421#Drosera_Card#						//		µå·Î¼¼¶óÄ«µå					|		Carta Drosera
+4422#Roween_Card#						//		·Î¿ìÀ©Ä«µå					|		Carta Roween
+4423#Galion_Card#						//		°¥¸®¿ÂÄ«µå					|		Carta Galion
+4424#Stapo_Card#						//		½ºÅÂÆ÷Ä«µå					|		Carta Stapo
+4425#Atroce_Card#						//		¾ÆÆ®·Î½ºÄ«µå					|		Carta Atroce
+4426#Byorgue_Card#						//		ºÌ¸£±×Ä«µå					|		Carta Byorgue
+4427#Sword_Guardian_Card#				//		¼Òµå°¡µð¾ðÄ«µå				|		Carta Espadachim Guardiao
+4428#Bow_Guardian_Card#					//		º¸¿ì°¡µð¾ðÄ«µå				|		Carta Arqueiro Guardiao
+4429#Salamander_Card#					//		»ø·¯¸Ç´õÄ«µå					|		Carta Salamandra
+4430#Ifrit_Card#						//		ÀÌÇÁ¸®Æ®Ä«µå					|		Carta Ifrit
+4431#Kasa_Card#							//		Ä«»çÄ«µå					|		Carta Kasa
+4432#Magmaring_Card#					//		¸¶±×¸¶¸µÄ«µå					|		Carta Magmaring
+4433#Imp_Card#							//		ÀÓÇÁÄ«µå					|		Carta Imp
+4434#Knocker_Card#						//		³ìÄ¿Ä«µå					|		Carta Golpeador
+4435#Zombie_Slaughter_Card#				//		Á»ºñ½½·¯ÅÍÄ«µå				|		Carta Massacre
+4436#Ragged_Zombie_Card#				//		´©´õ±âÁ»ºñÄ«µå				|		Carta Zumbi Dilacerado
+4437#Hell_Poodle_Card#					//		ÇïÇªµéÄ«µå					|		Carta Cao Infernal
+4438#Banshee_Card#						//		¹ê½ÃÄ«µå					|		Carta Banshee
+4439#Flame_Skull_Card#					//		ÇÃ·¹ÀÓ½ºÄÃÄ«µå				|		Carta Cranio Flamejante
+4440#Necromancer_Card#					//		³×Å©·Î¸Ç¼­Ä«µå				|		Carta Necromante
+4441#Fallen_Bishop_Card#				//		Å¸¶ôÇÑ´ë½Å°üÄ«µå				|		Carta Bispo Decadente
+4442#Tatacho_Card#						//		µûµûÃÊÄ«µå					|		Carta Tatacho
+4443#Aqua_Elemental_Card#				//		¾ÆÄí¾Æ¿¤·¹¸àÅ»Ä«µå				|		Carta Elemental da Agua
+4444#Draco_Card#						//		µå¶óÄÚÄ«µå					|		Carta Draco
+4445#Luciola_Vespa_Card#				//		·ç½Ã¿Ã¶óº£½ºÆÄÄ«µå				|		Carta Vespa Vagalume
+4446#Enhanced_Skeleton_Card#			//		°­È­½ºÄÌ·¹ÅæÄ«µå				|		Enhanced Skeleton Card
+4447#Centipede_Card#					//		¼¾Æ¼Æäµ¥Ä«µå					|		Carta Centopeia
+4448#Cornus_Card#						//		ÄÚ¸£´©½ºÄ«µå					|		Carta Cornus
+4449#Dark_Shadow_Card#					//		´ÙÅ©½¦µµ¿ìÄ«µå				|		Carta Sombra Obscura
+4450#Banshee_Master_Card#				//		¹ê½Ã¸¶½ºÅÍÄ«µå				|		Carta Banshee Master
+4451#Entweihen_Card#					//		¿£Æ®¹ÙÀÌ¿£Ä«µå				|		Carta Ant Buyanne
+4452#Centipede_Larva_Card#				//		¼¾Æ¼Æäµ¥À¯ÃæÄ«µå				|		Carta Larva de Centopeia
+4453#Hilsrion_Card#						//		Èú½º¸®¿ÂÄ«µå					|		Carta Leao da Montanha
+4454#Light_Up_Card1#					//		¹àÈ÷¸®Ä«µå1					|		Carta da Falquiria
+4455#Light_Up_Card2#					//		¹àÈ÷¸®Ä«µå2					|		Carta da Falquiria
+4456#Nidhogg_Shadow_Card#				//		´ÏµåÈ£±×ÀÇ±×¸²ÀÚÄ«µå				|		Carta Sombra de Nidhogg
+4457#Nahtzigger_Card#					//		³ªÈåÆ®Áö°ÅÄ«µå				|		Carta Naght Sieger
+4458#Duneirre_Card#						//		µÎ³×ÀÌ¸£Ä«µå					|		Carta Duneyrr
+4459#Lata_Card#							//		¶óÅ¸Ä«µå					|		Rata Card
+4460#Ringco_Card#						//		¸µÄÚÄ«µå					|		Carta Rhyncho
+4461#Pillar_Card#						//		ÇÊ¶óÄ«µå					|		Phylla Card
+4462#Hardrock_Mammos_Card#				//		ÇÏµå¶ô¸¾¸ð½ºÄ«µå				|		Carta Mamute Rochoso
+4463#Tendrilrion_Card#					//		ÅÙµå¸±¸®¿ÂÄ«µå				|		Carta Leao de Vinhas
+4464#Aunoe_Card#						//		¾Æ¿ì³ë¿¡Ä«µå					|		Carta Aunoe
+4465#Panat_Card#						//		ÆÄ³ªÆ®Ä«µå					|		Carta Fanat
+4466#Beholder_Master_Card#				//		ºñÈ¦´õ¸¶½ºÅÍÄ«µå				|		Carta Mestre Beholder
+4467#Heavy_Metaling_Card#				//		Çìºñ¸ÞÅ»¸µÄ«µå				|		Carta Heavy Metaling
+4468#Pinguicula_Dark_Card#				//		ÇÉ±ÍÅ§¶ó´ÙÅ©Ä«µå				|		Carta Pinguicula Sombria
+4469#Naga_Card#							//		³ª°¡Ä«µå					|		Carta Naga
+4470#Nepenthes_Card#					//		³×Ææµ¥½ºÄ«µå					|		Carta Nepenthes
+4471#Egg_Of_Draco_Card#					//		µå¶óÄÚÀÇ¾ËÄ«µå				|		Carta Ovo de Draco
+4472#Bradium_Goram_Card#				//		ºê¶óµð¿ò°í·½Ä«µå ~ ºê¶óµð¿ò°ñ·½Ä«µå	|		Carta Golem de Bradium
+4473#Ancient_Tree_Card#					//		¿¡ÀÎ¼ÇÆ®Æ®¸®Ä«µå				|		Carta Arvore Ancia
+4474#Jakudam_Card#						//		ÀÚÄí´ãÄ«µå					|		Carta Zakudam
+4475#Cobalt_Mineral_Card#				//		ÄÚ¹ßÆ®¹Ì³×¶öÄ«µå				|		Carta Cobalto
+4476#Pinguicula_Card#					//		ÇÉ±ÍÅ§¶óÄ«µå					|		Carta Pinguicula
+4477#Hell_Apocalips_Card#				//		Çï¾ÆÆ÷Ä®¸³½ºÄ«µå				|		Carta Apocalipse Infernal
+4478#Light_Up_Card3#					//		¹àÈ÷¸®Ä«µå3					|		Carta Falquiria
+4479#Light_Up_Card4#					//		¹àÈ÷¸®Ä«µå4					|		Carta Falquiria
+4480#Sealed_Kiel_Card#					//		ºÀÀÎµÈÅ°¿¤_D01Ä«µå			|		Carta Selada Kiel
+4481#Sealed_Ktullanux_Card#				//		ºÀÀÎµÈÅ©Åø¶ó³«½ºÄ«µå				|		Carta Selada Ktullanux
+4482#Sealed_B_Ygnizem_Card#				//		ºÀÀÎµÈº¸½ºÀÌ±×´ÏÁªÄ«µå			|		Carta Egnigem Cenia Selada
+4483#Sealed_Dracula_Card#				//		ºÀÀÎµÈµå¶óÅ¥¶óÄ«µå				|		Carta Selada Dracula
+4484#Sealed_Mistress_Card#				//		ºÀÀÎµÈ¹Ì½ºÆ®·¹½ºÄ«µå				|		Carta Selada Abelha Rainha
+4485#Sealed_Gloom_Card#					//		ºÀÀÎµÈ±Û·ëÄ«µå				|		Carta Selada Pesar Noturno
+4486#Sealed_Berz_Card#					//		ºÀÀÎµÈº£¸£Á¦ºêºêÄ«µå				|		Carta Belzebu Selada
+4487#Sealed_Ifrit_Card#					//		ºÀÀÎµÈÀÌÇÁ¸®Æ®Ä«µå				|		Carta Ifrit Selada
+4488#Sealed_D_Lord_Card#				//		ºÀÀÎµÈ´ÙÅ©·ÎµåÄ«µå				|		Carta Dark Lord Selada
+4489#Sealed_Pharaoh_Card#				//		ºÀÀÎµÈÆÄ¶ó¿ÀÄ«µå				|		Carta Pharaoh Selada
+4490#Sealed_M_Flower_Card#				//		ºÀÀÎµÈ¿ù¾ßÈ­Ä«µå				|		Carta Flor Lunar Selada
+4491#Sealed_B_Shecil_Card#				//		ºÀÀÎµÈ½º³ªÀÌÆÛÄ«µå				|		Carta Selada da Atirador de Elite Cecil
+4492#Sealed_Orc_Hero_Card#				//		ºÀÀÎµÈ¿ÀÅ©È÷¾î·ÎÄ«µå				|		Carta Orc Hero Selada
+4493#Sealed_Tao_Card#					//		ºÀÀÎµÈÅ¸¿À±ºÄ«Ä«µå				|		Carta Tao Gunka Selada
+4494#Sealed_TurtleG_Card#				//		ºÀÀÎµÈÅÍÆ²Á¦³×·²Ä«µå				|		Carta General Tartaruga Selada
+4495#Sealed_Amon_Ra_Card#				//		ºÀÀÎµÈ¾Æ¸ó¶óÄ«µå				|		Carta Amon Ra Selada
+4496#Sealed_Drake_Card#					//		ºÀÀÎµÈµå·¹ÀÌÅ©Ä«µå				|		Carta Drake Selada
+4497#Sealed_Knight_WS_Card#				//		ºÀÀÎµÈÆøÇ³ÀÇ±â»çÄ«µå				|		Carta Cavaleiro da Tempestade Selada
+4498#Sealed_Lady_Tanee_Card#			//		ºÀÀÎµÈÅ¸´Ï¾Æ°¡¾¾Ä«µå				|		Carta Lady Tanee Selada
+4499#Sealed_Samurai_Card#				//		ºÀÀÎµÈ¿ø·É¹«»çÄ«µå				|		Carta Selada do Samurai Encarnado
+4500#Sealed_Orc_Load_Card#				//		ºÀÀÎµÈ¿ÀÅ©·ÎµåÄ«µå				|		Carta Selada do Senhor dos Orcs
+4501#Sealed_B_Magaleta_Card#			//		ºÀÀÎµÈÇÏÀÌÇÁ¸®½ºÆ®Ä«µå			|		Carta Sumo Sacerdotisa Margaretha Selada
+4502#Sealed_B_Harword_Card#				//		ºÀÀÎµÈÈ­ÀÌÆ®½º¹Ì½ºÄ«µå			|		Carta Mestre-ferreiro Howard Selada
+4503#Sealed_Apocalips_H_Card#			//		ºÀÀÎµÈº£½ºÆÛÄ«µå				|		Carta Vesper Selada
+4504#Sealed_Eddga_Card#					//		ºÀÀÎµÈ¿¡µå°¡Ä«µå				|		Carta Eddga Selada
+4505#Scaraba_Card#						//		½ºÄ«¶ó¹ÙÄ«µå					|		Carta Scaraba
+4506#Dolomedes_Card#					//		µ¹·Î¸Þµ¥½ºÄ«µå				|		Dolomedes Card
+4507#Q_Scaraba_Card#					//		¿©¿Õ½ºÄ«¶ó¹ÙÄ«µå				|		Carta Rainha-Scaraba
+4508#Gold_Scaraba_Card#					//		È²±Ý½ºÄ«¶ó¹ÙÄ«µå				|		Gold Scaraba Card
+4509#Gold_Q_Scaraba_Card#				//		È²±Ý¿©¿Õ½ºÄ«¶ó¹ÙÄ«µå				|		Gold Queen Scaraba Card
+4510#Miming_Card#						//		¹Ì¹ÖÄ«µå					|		Carta Miming
+4511#Little_Fatum_Card#					//		²¿¸¶ÆÄÅùÄ«µå					|		Carta Pequeno Fatum
+4512#Parus_Card#						//		ÆÄ·ç½ºÄ«µå					|		Parus Card
+4513#Angra_Mantis_Card#					//		¾Ó±×¶ó¸ÇÆ¼½ºÄ«µå				|		Angra Mantis Card
+4514#Pom_Spider_Card#					//		Æû½ºÆÄÀÌ´õÄ«µå				|		Carta Aranha Pom
+4515#Alnoldi_Card#						//		¶óÇÃ·¹½Ã¾Æ¾Ë³îµðÄ«µå				|		Carta Alnoldi
+4516#Comodo_Card#						//		ÄÚ¸ðµµÄ«µå					|		Comodo Card
+4517#Cendrawasih_Card#					//		¼¾µå¶ó¿Í½ÃÄ«µå				|		Cendrawasih Card
+4518#Banaspaty_Card#					//		¹Ù³ª½ºÆÄÆ¼Ä«µå				|		Carta Banaspaty
+4519#Butoijo_Card#						//		ºÎÅäÀÌÁ¶Ä«µå					|		Butoijo Card
+4520#Leak_Card#							//		¹«½Ã¹«½ÃÇÑ¸¯Ä«µå				|		Leak Card
+4521#Sedora_Card#						//		¼¼µµ¶óÄ«µå					|		Carta Sedora
+4522#Sropho_Card#						//		½º·ÎÆ÷Ä«µå					|		Carta Sropho
+4523#Pot_Dofle_Card#					//		µµÇÁ·¹Ç×¾Æ¸®Ä«µå				|		Pot Dofle Card
+4524#King_Dramoh_Card#					//		Å·µå¶ó¸ðÄ«µå					|		Carta Dhamon Rei
+4525#Kraken_Card#						//		Å©¶óÄËÄ«µå					|		Kraken Card
+4526#Odd_Coelacanth_Card#				//		±«ÀÌÇÑ½Ç·¯Äµ½ºÄ«µå				|		Weird Coelacanth Card
+4527#Black_Coelacanth_Card#				//		¾ÏÈæÀÇ½Ç·¯Äµ½ºÄ«µå				|		Carta Celacanto Sombrio
+4528#Mutant_Coelacanth_Card#			//		µ¹¿¬º¯ÀÌ½Ç·¯Äµ½ºÄ«µå				|		Carta Celacanto Mutante
+4529#Cruel_Coelacanth_Card#				//		Æ÷¾ÇÇÑ½Ç·¯Äµ½ºÄ«µå				|		Violent Coelacanth Card
+4530#Siorava_Card#						//		½Ã¿À¶ó¹ÙÄ«µå					|		Carta Siorava
+4531#Red_Eruma_Card#					//		»¡°­¿¡·ç¸¶Ä«µå				|		Carta Eruma Vermelho
+4532#Wild_Rider_Card#					//		¿ÍÀÏµå¶óÀÌ´õÄ«µå				|		Carta Montaria Selvagem
+4533#Mini_Octopus_Card#					//		ÀÛÀº¹®¾îÄ«µå					|		Carta Polvo Pequeno
+4534#Giant_Octopus_Card#				//		´ë¿Õ¹®¾îÄ«µå					|		Polvo Gigante
+4535#Sealed_Rand_Card#					//		ºÀÀÎµÈ¶õµå±×¸®½ºÄ«µå				|		Carta Valkyrie Randgris Selada
+4536#Sealed_Atroce_Card#				//		ºÀÀÎµÈ¾ÆÆ®·Î½ºÄ«µå				|		Carta Atroce Selada
+4537#Sealed_Phreeoni_Card#				//		ºÀÀÎµÈÇÁ¸®¿À´ÏÄ«µå				|		Carta Freeoni Selada
+4538#Sealed_Bacsojin_Card#				//		ºÀÀÎµÈ¹é¼ÒÁøÄ«µå				|		Carta Dama de Branco Selada
+4539#Sealed_F_Bishop_Card#				//		ºÀÀÎµÈÅ¸¶ôÇÑ´ë½Å°üÄ«µå			|		Carta Bispo Decadente Selada
+4540#SLD_Lord_Of_Death_Card#			//		ºÀÀÎµÈÁ×ÀºÀÚÀÇÁÖÀÎÄ«µå			|		Carta Senhor dos Mortos Selada
+4541#SLD_B_Katrinn_Card#				//		ºÀÀÎµÈÇÏÀÌÀ§ÀÚµåÄ«µå				|		Carta Arquimaga Kathryne Selada
+4542#SLD_Detale_Card#					//		ºÀÀÎµÈµðÅ¸¸£Ä«µå				|		Carta Detardeurus Selada
+4543#SLD_Garm_Card#						//		ºÀÀÎµÈÇÏÆ¼Ä«µå				|		Carta Hatii Selada
+4544#SLD_Dark_Snake_Card#				//		ºÀÀÎµÈÈæ»ç¿ÕÄ«µå				|		Carta Serpente Suprema Selada
+4545#Novice_Poring_Card#				//		Æ÷¸µÄ«µå					|		Novice Poring Card
+4546#Val'khiri_Card#					//		¹àÈ÷¸®Ä«µå5					|		Val'khiri Card
+4547#Enhanced_Byorgue_Card#				//		Unk_name				|		Enhanced Byorgue Card
+4548#Enhanced_Salamander_Card#			//		Unk_name				|		Enhanced Salamander Card
+4549#Upd_Maya_Puple_Card#				//		Unk_name				|		Upd Maya Puple Card
+4550#Upd_Bow_Guardian_Card#				//		°­È­º¸¿ì°¡µð¾ðÄ«µå				|		Upd Bow Guardian Card
+4552#Manny_Card#						//		¸Å´ÏÄ«µå					|		Manny Card
+4553#Sid_Card#							//		½ÃµåÄ«µå					|		Sid Card
+4554#Diego_Card#						//		µð¿¡°íÄ«µå					|		Diego Card
+4555#Scrat_Card#						//		½ºÅ©·§Ä«µå					|		Scrat Card
+4556#Fenrir_Card#						//		Ææ¸±Ä«µå					|		Fenrir Card
+4557#Weakened_Fenrir_Card#				//		¾àÈ­µÈÆæ¸±Ä«µå ~ Ææ¸±Ä«µå_		|		Weakened Fenrir Card
+4559#Evil_Morocc_Card#					//		Àý¸ÁÀÇ½Å¸ð·ÎÅ©Ä«µå				|		Evil Morocc Card
+4560#Clown_Alphoccio_Card#				//		Å©·Î¿îÄ«µå					|		Clown Alphoccio Card
+4561#Professor_Celia_Card#				//		ÇÁ·ÎÆä¼­Ä«µå					|		Professor Celia Card
+4562#Champion_Chen_Card#				//		Ã¨ÇÇ¾ðÄ«µå					|		Champion Chen Card
+4563#Creator_Flamel_Card#				//		Å©¸®¿¡ÀÌÅÍÄ«µå				|		Creator Flamel Card
+4564#Stalker_Gertie_Card#				//		½ºÅäÄ¿Ä«µå					|		Stalker Gertie Card
+4565#Paladin_Randel_Card#				//		ÆÈ¶óµòÄ«µå					|		Paladin Randel Card
+4566#Gypsy_Trentini_Card#				//		Áý½ÃÄ«µå					|		Gypsy Trentini Card
+4567#Alphoccio_Card#					//		¾Æ¸£º¸Ä¡¿À¹Ù½ÇÄ«µå				|		Alphoccio Card
+4568#Celia_Card#						//		½Ç¸®¾Æ¾Ëµ¥Ä«µå				|		Celia Card
+4569#Chen_Card#							//		Ã¾¸®¿ìÄ«µå					|		Chen Card
+4570#Flamel_Card#						//		ÇÃ¶ó¸áÀÌ¹ÄÄ«µå				|		Flamel Card
+4571#Gertie_Card#						//		°ÅÆ¼À§Ä«µå					|		Gertie Card
+4572#Randel_Card#						//		·£´Þ·Î·»½ºÄ«µå				|		Randel Card
+4573#Trentini_Card#						//		Æ®·»Æ¼´ÏÄ«µå					|		Trentini Card
+4574#Daehyon_Card#						//		Àå±º´ëÇöÄ«µå					|		General Daehyon Card
+4575#Soheon_Card#						//		È£À§¹«»ç¼ÒÇöÄ«µå				|		Armed Guard Soheon Card
+4576#Gioia_Card#						//		Áö¿ÀÀÌ¾ÆÄ«µå					|		Gioia Card
+4577#Elvira_Card#						//		¿¤ºñ¾ÆÄ«µå					|		Elvira Card
+4578#Pyuriel_Card#						//		Å»¶ôÀÚÇ»¸®¿¤Ä«µå				|		Angry Student Pyuriel Card
+4579#Lola_Card#							//		¿©Àü»ç·Î¶óÄ«µå				|		Warrior Lola Card
+4580#Kades_Card#						//		¼öÈ£ÀÚÄ«µ¥½ºÄ«µå				|		Dark Guardian Kades Card
+4581#Rudo_Card#							//		·çµµÄ«µå					|		Rudo Card
+4582#Bungisngis_Card#					//		ºØÀÌ½ÂÀÌ½ºÄ«µå				|		Bungisngis Card
+4583#Engkanto_Card#						//		¿¨ÄÁÅäÄ«µå					|		Engkanto Card
+4584#Manananggal_Card#					//		¸Ó³Ê³Õ°ÉÄ«µå					|		Manananggal Card
+4585#Mangkukulam_Card#					//		¸ÛÄíÄí·³Ä«µå					|		Mangkukulam Card
+4586#Tikbalang_Card#					//		Æ½¹ö··Ä«µå					|		Tikbalang Card
+4587#Tiyanak_Card#						//		Æ¼¾ï†¤Ä«µ?					|		Tiyanak Card
+4588#Wakwak_Card#						//		pŸpÄ«µå					|		Wakwak Card
+4589#Jejeling_Card#						//		Á¦Á¦¸µÄ«µå					|		Jejeling Card
+4590#Bangungot_Card#					//		º¡¿õ°÷Ä«µå					|		Bangungot Card
+4591#Bakonawa_Card#						//		¹öÄÚ³Ê¿öÄ«µå					|		Bakonawa Card
+4592#Buwaya_Card#						//		ºÎ¿ö¿©Ä«µå					|		Buwaya Card
+4593#Menblatt_Card#						//		¸Çºí¸´Ä«µå					|		Menblatt Card
+4594#Petal_Card#						//		ÆäÅ»Ä«µå					|		Petal Card
+4595#Cenere_Card#						//		Ã¼³×·¹Ä«µå					|		Cenere Card
+4596#AntiqueBook_Card#					//		ÈÑ¼ÕµÈ°í¼­Ä«µå				|		Antique Book Card
+4597#LichternB_Card#					//		ÆÄ¶û¸®È÷Å×¸¥Ä«µå				|		Lichtern Blue Card
+4598#LichternG_Card#					//		°¥»ö¸®È÷Å×¸¥Ä«µå ~ ÃÊ·Ï¸®È÷Å×¸¥Ä«µå	|		Lichtern Green Card
+4599#LichternR_Card#					//		»¡°­¸®È÷Å×¸¥Ä«µå				|		Lichtern Red Card
+4600#LichternY_Card#					//		°¥»ö¸®È÷Å×¸¥Ä«µå ~ ÃÊ·Ï¸®È÷Å×¸¥Ä«µå	|		Lichtern Yellow Card
+4601#Amdarais_Card#						//		¾Ï´Ù¶óÀÌ½ºÄ«µå				|		Amdarais Card
+4602#Realized_Amdarais_Card#			//		°¢¼º¾Ï´Ù¶óÀÌ½ºÄ«µå				|		Realized Amdarais Card
+4603#Corruption_Root_Card#				//		Å¸¶ôÇÑ»Ñ¸®Ä«µå				|		Corruption Root Card
+4604#Realized_Corruption_Root_Card#		//		°¢¼ºÅ¸¶ôÇÑ»Ñ¸®Ä«µå				|		Realized Corruption Root Card
+4605#UndeadKnightM_Card#				//		°íÅëÀÇ±â»çÄ«µå				|		Agony Of Royal Knight Card
+4606#UndeadKnightF_Card#				//		¿øÇÑÀÇ±â»çÄ«µå				|		Grudge of Royal Knight Card
+4607#FaithfulManager_Card#				//		¼º½ÇÇÑ´«µ¿ÀÚÄ«µå				|		Faithful Manager Card
+4608#White_Knight_Card#					//		¹é»öÀÇ±â»ç´ÜÄ«µå				|		White Knight Card
+4609#Khalitzburg_Knight_Card#			//		Ä®¸®Ã÷±â»ç´ÜÄ«µå				|		Khalitzburg Knight Card
+4610#Sarah_Card#						//		»ç¶óÄ«µå					|		Sarah Card
+//4623#Sem_DB#							//		11ÁÖ³âÄ«µå					|
+//4624#Sem_DB#							//		Å¸¿À±ºÄ«Ä«µå					|
+4625#Time_Holder_Card#					//		Å¸ÀÓÈ¦´õÄ«µå					|		Timeholder Card
+4626#Big_Ben_Card#						//		ºòº¥Ä«µå					|		Big Ben Card
+4627#Big_Bell_Card#						//		ºòº§Ä«µå					|		Big Bell Card
+4628#Neo_Punk_Card#						//		³×¿ÀÆãÅ©Ä«µå					|		Neo Punk Card
+4629#Arc_Elder_Card#					//		¾ÆÅ©¿¤´õÄ«µå					|		Arc Elder Card
+4630#Nightmare_Timer_Keeper_Card#		//		Å¸ÀÓÅ°ÆÛÄ«µå					|		Time Keeper Card
+4631#Owl_Viscount_Card#					//		¾Æ¿ï¹ÙÀÌÄ«¿îÆ®Ä«µå				|		Owl Viscount Card
+4632#Owl_Marquees_Card#					//		¾Æ¿ï¸¶Äû½ºÄ«µå				|		Owl Marquees Card
+4633#Enhanced_Archer_Skeleton_Card#		//		°­È­¾ÆÃÄ½ºÄÌÅæÄ«µå				|		Enhanced Archer Skeleton Card
+4634#Enhanced_Soldier_Skeleton_Card#	//		°­È­¼ÖÁ®½ºÄÌÅæÄ«µå				|		Enhanced Soldier Skeleton Card
+4635#Enhanced_Amdarais_Card#			//		°­È­¾Ï´Ù¶óÀÌ½ºÄ«µå				|		Enhanced Amdarais Card
+4636#Bijou_Card#						//		ºñÁêÄ«µå					|		Bijou Card
+4637#Immortal_Corps_Card#				//		ºÒ»çÀÇ±º´ÜÄ«µå				|		Immortal Corps Card
+4638#Watcher_Card#						//		¿ÍÃÄÄ«µå					|		Watcher Card
+4639#Taffy_Card#						//		ÅÂÇÇÄ«µå					|		Taffy Card
+4640#Frozen_Wolf_Card#					//		ÇÁ·ÎÁð¿ïÇÁÄ«µå				|		Frozen Wolf Card
+4641#Zombie_Guard_Card#					//		µÇ»ì¾Æ³­°æºñº´Ä«µå				|		Zombie Guard Card
+4642#Min_Toad_Card#						//		¹«ÇÑÅäµåÄ«µå					|		Infinite Toad Card
+4643#Min_Vagabond_Wolf_Card#			//		¹«ÇÑ¶°µ¹ÀÌ´Á´ëÄ«µå				|		Infinite Vagabond Wolf Card
+4644#Min_Vocal_Card#					//		¹«ÇÑº¸ÄÃÄ«µå					|		Infinite Vocal Card
+4645#Min_Eclipse_Card#					//		¹«ÇÑÀÌÅ¬¸³½ºÄ«µå				|		Infinite Eclipse Card
+4646#Min_Chimera_Card#					//		¹«ÇÑÅ°¸Þ¶óÄ«µå				|		Infinite Chimera Card
+4647#Min_Osiris_Card#					//		¹«ÇÑ¿À½Ã¸®½ºÄ«µå				|		Infinite Osiris Card
+4648#Min_Eddga_Card#					//		¹«ÇÑ¿¡µå°¡Ä«µå				|		Infinite Eddga Card
+4649#Min_Phreeoni_Card#					//		¹«ÇÑÇÁ¸®¿À´ÏÄ«µå				|		Infinite Phreeoni Card
+4650#Min_Orc_Hero_Card#					//		¹«ÇÑ¿ÀÅ©È÷¾î·ÎÄ«µå				|		Infinite Orc Hero Card
+4651#Min_Tao_Gunka_Card#				//		¹«ÇÑÅ¸¿À±ºÄ«Ä«µå				|		Carta Tao Gunka Infinita
+4652#N_Amon_Ra_Card#					//		±×·¹ÀÌºê¾Æ¸ó¶óÄ«µå				|		Nightmare Amon Ra Card
+4653#N_Arclouse_Card#					//		±×·¹ÀÌºê¾ÆÅ©¶ó¿ì½ºÄ«µå			|		Nightmare Arclouse Card
+4654#N_Mimic_Card#						//		±×·¹ÀÌºê¹Ì¹ÍÄ«µå				|		Nightmare Mimic Card
+4655#N_Minorous_Card#					//		±×·¹ÀÌºê¸¶ÀÌ³ÊÄ«µå				|		Nightmare Minorous Card
+4656#N_Mummy_Card#						//		±×·¹ÀÌºê¹ÌÀÌ¶óÄ«µå				|		Nightmare Mummy Card
+4657#N_Ancient_Mummy_Card#				//		±×·¹ÀÌºê¿£¼ÇÆ®¹Ì¶óÄ«µå			|		Nightmare Ancient Mummy Card
+4658#N_Verit_Card#						//		±×·¹ÀÌºêº£¸´Æ®Ä«µå				|		Nightmare Verit Card
+4659#Eggring_Card#						//		¿¡±×¸µÄ«µå					|		Eggring Card
+4660#Scout_Basilisk_Card#				//		µ¹°Ý¹ÙÁú¸®½ºÅ©Ä«µå				|		Scout Basilisk Card
+4661#Charge_Basilisk_Card#				//		Á¤Âû¹ÙÁú¸®½ºÅ©Ä«µå				|		Charge Basilisk Card
+4662#Big_Eggring_Card#					//		´ëÇü¿¡±×¸µÄ«µå				|		Big Eggring Card
+4663#Leaf_Lunatic_Card#					//		¸®ÇÁ·ç³ªÆ½Ä«µå				|		Leaf Lunatic Card
+4664#Grass_Fabre_Card#					//		±×·¡½ºÆÄºê¸£Ä«µå				|		Carta Tao Gunka Selada
+4665#Wild_Hornet_Card#					//		¿ÍÀÏµåÈ£³ÝÄ«µå				|		Wild Hornet Card
+4666#Sweet_Roda_Frog_Card#				//		½ºÀ§Æ®·Î´ÙÇÁ·Î±×Ä«µå				|		Swift Roda Frog Card
+4667#Hunter_Wolf_Card#					//		ÇåÅÍµ¥ÀúÆ®¿ïÇÁÄ«µå				|		Hunter Wolf Card
+4668#Trance_Spore_Card#					//		Æ®·£½º½ºÆ÷¾ÆÄ«µå				|		Trance Spore Card
+4669#Jungle_Mandragora_Card#			//		Á¤±Û¸¸µå¶ó°í¶óÄ«µå				|		Jungle Mandragora Card
+4670#Fruit_Pom_Spider_Card#				//		ÇÁ·çÃ÷Æû½ºÆÄÀÌ´õÄ«µå				|		Fruit Pom Spider
+4671#V_B_Celia_Card#					//		¼Ò¼­·¯Ä«µå					|		Sorcerer Celia Card
+4672#V_B_Chen_Card#						//		¼ö¶óÄ«µå					|		Sura Chen Card
+4673#V_B_Alphoccio_Card#				//		¹Î½ºÆ®·²Ä«µå					|		Minstrel Alphoccio Card
+4674#V_B_Eremes_Card#					//		±æ·ÎÆ¾Å©·Î½ºÄ«µå				|		Carta Sicario Eremes
+4675#V_B_Magaleta_Card#					//		¾ÆÅ©ºñ¼óÄ«µå					|		Arch Bishop Magaleta Card
+4676#V_B_Shecil_Card#					//		·¹ÀÎÀúÄ«µå					|		Ranger Cecil Card
+4677#V_B_Howard_Card#					//		¹ÌÄÉ´ÐÄ«µå					|		Merchanic Howard Card
+4678#V_B_Katrinn_Card#					//		¿ö·ÏÄ«µå					|		Warlock Kathryne Card
+4679#V_B_Seyren_Card#					//		·é³ªÀÌÆ®Ä«µå					|		Rune Knight Seyren Card
+4680#V_B_Randel_Card#					//		·Î¿­°¡µåÄ«µå					|		Royal Guard Randel Card
+4681#V_B_Flamel_Card#					//		Á¦³×¸¯Ä«µå					|		Genetic Flamel Card
+4682#V_B_Gertie_Card#					//		½¦µµ¿ìÃ¼ÀÌ¼­Ä«µå				|		Shadow Chaser Gertie Card
+4683#V_B_Trentini_Card#					//		¿ø´õ·¯Ä«µå					|		Wanderer Trentini Card
+4684#V_Eremes_Card#						//		Áø¿¡·¹¸Þ½º°¡ÀÏÄ«µå				|		True Eremes Guile Card
+4685#V_Magaleta_Card#					//		Áø¸¶°¡·¹Å¸¼Ò¸°Ä«µå				|		True Margaretha Sorin Card
+4686#V_Katrinn_Card#					//		ÁøÄ«Æ®¸°´ÀÄÉÀÌ·ÐÄ«µå				|		True Kathryne Keyron Card
+4687#V_Shecil_Card#						//		Áø¼Î½Çµð¸ÕÄ«µå				|		True Cecil Damon Card
+4688#V_Harword_Card#					//		ÁøÇÏ¿öµå¾ËÆ®¾ÆÀÌÁ¨Ä«µå			|		True Howard Alt-Eisen Card
+4689#V_Seyren_Card#						//		Áø¼¼ÀÌ·»À©ÀúÄ«µå				|		True Seyren Windsor Card
+4690#V_Randel_Card#						//		Áø·£´Þ·Î·»½ºÄ«µå				|		True Randel Lawrence Card
+4691#V_Flamel_Card#						//		ÁøÇÃ¶ó¸áÀÌ¹ÄÄ«µå				|		True Flamel Emure Card
+4692#V_Celia_Card#						//		Áø½Ç¸®¾Æ¾Ëµ¥Ä«µå				|		True Celia Alde Card
+4693#V_Chen_Card#						//		ÁøÃ¾¸®¿ìÄ«µå					|		True Chen Liu Card
+4694#V_Gertie_Card#						//		Áø°ÅÆ¼À§Ä«µå					|		True Gertie Card
+4695#V_Trentini_Card#					//		ÁøÆ®·»Æ¼´ÏÄ«µå				|		True Trentini Card
+4696#V_Alphoccio_Card#					//		Áø¾Æ¸£º¸Ä¡¿À¹Ù½ÇÄ«µå				|		True Alphoccio Card
+4697#Charleston3_Card#					//		Âû½ºÅÏÄ«µå					|		Charleston3 Card
+4698#Step_Card#							//		½ºÅÜÄ«µå					|		Step Card
+4699#Rock_Step_Card#					//		¶ô½ºÅÜÄ«µå					|		Rock Step Card
+//27000#Sem_DB#							//		Àå½ÄµÈ¾Ç·É³ª¹«Ä«µå				|
+//27001#Sem_DB#							//		Æ÷¾ÇÇØÁøÄíÅ°Ä«µå				|
+//27002#Sem_DB#							//		¾Ç·É±êµç»óÀÚÄ«µå				|
+//27003#Sem_DB#							//		¼¶¶àÇÑ¾Ç·ÉÄ«µå				|
+//27004#Sem_DB#							//		¾ÇÀÇ¿¡ÂùÀ¯·ÉÄ«µå				|
+//27005#Sem_DB#							//		ÃãÃß´Â¸¶¸®¿À³×Æ®Ä«µå				|
+//27006#Sem_DB#							//		¹ö·ÁÁø°õÀÎÇüÄ«µå				|
+//27007#Sem_DB#							//		¼¿¸°´ÀÅ°¹ÌÄ«µå				|
+//27008#Sem_DB#							//		°¢¼º¾Ï´Ù¶óÀÌ½ºÄ«µå				|
+//27009#Sem_DB#							//		°¢¼ºÅ¸¶ôÇÑ»Ñ¸®Ä«µå				|
+//27010#Sem_DB#							//		¹é»öÀÇ±â»ç´ÜÄ«µå				|
+//27011#Sem_DB#							//		Ä®¸®Ã÷±â»ç´ÜÄ«µå				|
+//27012#ÀÚ¸¶´Ù¸£#
+//27012#ÀÌ¸§¾ø´ÂÄ«µå#
+//27013#ÀÌ¸§¾ø´ÂÄ«µå#
+//27013#µîµÚ¸¦º£´ÂÀÚ#
+//27014#ÀÎ¹ö½º½ºÄÉ¾î#
+//27014#ÀÌ¸§¾ø´ÂÄ«µå#
+//27015#Ç÷·ç#
+//27015#ÀÌ¸§¾ø´ÂÄ«µå#
+//27016#ÀÌ¸§¾ø´ÂÄ«µå#
+//27016#¹Ù¸®¾î½ºÁê¸£#
+//27017#¹èÆ²¾×½º#
+//27017#ÀÌ¸§¾ø´ÂÄ«µå#
+//27018#¿öÇØ¸Ó#
+//27018#ÀÌ¸§¾ø´ÂÄ«µå#
+//27019#ÅõÇÚµå¾×½º#
+//27019#ÀÌ¸§¾ø´ÂÄ«µå#
+//27020#ÇÏÆ®ºê·¹ÀÌÄ¿#
+//27020#ÀÌ¸§¾ø´ÂÄ«µå#
+//27021#ÀÌ¸§¾ø´ÂÄ«µå#
+//27021#Çã¸®ÄÉÀÎÇ»¸®#
+//27022#ÀÌ¸§¾ø´ÂÄ«µå#
+//27022#À§ÀÚµå¸®½ºÅÂÇÁ#
+//27023#ºí·¹ÀÌµå#
+//27023#ÀÌ¸§¾ø´ÂÄ«µå#
+//27024#Ã÷·ç±â#
+//27024#ÀÌ¸§¾ø´ÂÄ«µå#
+27012#Kick_Step_Card#					//		Å±½ºÅÜÄ«µå					|		Kick Step Card
+27013#Kick_&_Kick_Card#					//		Å±¾ØÅ±Ä«µå					|		Kick & Kick Card
+27014#Green_Cenere_Card#				//		±×¸°Ã¼³×·¹Ä«µå				|		Green Cenere Card
+27015#Repair_Robot_Turbo_Card#			//		¼ö¸®·Îº¿ÅÍº¸Ä«µå				|		Repair Robot Turbo Card
+27016#Exploration_Rover_Turbo_Card#		//		Å½»ç·Îº¿ÅÍº¸Ä«µå				|		Exploration Rover Turbo Card
+27017#Scrap_Robots_Card#				//		°íÃ¶·Îº¿Ä«µå					|		Scrap Robots Card
+27018#GC109_Card#						//		GC109Ä«µå					|		GC109 Card
+27019#DR815_Card#						//		DR815Ä«µå					|		DR815 Card
+27020#T_W_O_Card#						//		T_W_OÄ«µå					|		T W O Card
+//27021#Sem_DB#							//		jp_ev03					|
+//27022#Sem_DB#							//		jp_ev04					|
+//27023#Sem_DB#							//		jp_ev05					|
+//27024#Sem_DB#							//		jp_ev06					|
+//27031#Sem_DB#							//		¹Ì±ÃÀÇ¹ÙÆ÷¸ÞÆ®Ä«µå				|
+//27032#Sem_DB#							//		¹Ì±ÃÀÇµå¶óÅ¥¶óÄ«µå				|
+//27033#Sem_DB#							//		ºÒ¸êÀÇÀúÁÖ¹ÞÀº±â»çÄ«µå			|
+//27034#Sem_DB#							//		ºÒ¸êÀÇÀ©µå°í½ºÆ®Ä«µå				|
+//27035#Sem_DB#							//		½ºÅ×ÆÇÄ«µå					|
+//27036#Sem_DB#							//		°­È­½ºÄÌ·¹ÅæÄ«µå				|
+//27037#Sem_DB#							//		°­È­¾ÆÃÄ½ºÄÌÅæÄ«µå				|
+//27038#Sem_DB#							//		°­È­¼ÖÁ®½ºÄÌÅæÄ«µå				|
+//27039#Sem_DB#							//		°­È­¾Ï´Ù¶óÀÌ½ºÄ«µå				|
+//27040#Sem_DB#							//		ºñÁêÄ«µå					|
+//27041#Sem_DB#							//		ºÒ»çÀÇ±º´ÜÄ«µå				|
+//27042#Sem_DB#							//		¿ÍÃÄÄ«µå					|
+//27043#Sem_DB#							//		ÅÂÇÇÄ«µå					|
+//27044#Sem_DB#							//		ÇÁ·ÎÁð¿ïÇÁÄ«µå				|
+//27045#Sem_DB#							//		µÇ»ì¾Æ³­°æºñº´Ä«µå				|
+//27046#Sem_DB#							//		sorry					|
+//27047#Sem_DB#							//		sorry					|
+//27048#Sem_DB#							//		sorry					|
+//27049#Sem_DB#							//		sorry					|
+//27050#Sem_DB#							//		¾Ö´Ï¹ö¼­¸®Ä«µå1				|
+//27051#Sem_DB#							//		¾Ö´Ï¹ö¼­¸®Ä«µå2				|
+//27052#Sem_DB#							//		¾Ö´Ï¹ö¼­¸®Ä«µå3				|
+//27053#Sem_DB#							//		¾Ö´Ï¹ö¼­¸®Ä«µå4				|
+//27054#Sem_DB#							//		¾Ö´Ï¹ö¼­¸®Ä«µå5				|
+//27055#Sem_DB#							//		¼Ò¼­·¯Ä«µå					|
+//27056#Sem_DB#							//		¼ö¶óÄ«µå					|
+//27057#Sem_DB#							//		¹Î½ºÆ®·²Ä«µå					|
+//27058#Sem_DB#							//		±æ·ÎÆ¾Å©·Î½ºÄ«µå				|
+//27059#Sem_DB#							//		¾ÆÅ©ºñ¼óÄ«µå					|
+//27060#Sem_DB#							//		·¹ÀÎÀúÄ«µå					|
+//27061#Sem_DB#							//		¹ÌÄÉ´ÐÄ«µå					|
+//27062#Sem_DB#							//		¿ö·ÏÄ«µå					|
+//27063#Sem_DB#							//		·é³ªÀÌÆ®Ä«µå					|
+//27064#Sem_DB#							//		·Î¿­°¡µåÄ«µå					|
+//27065#Sem_DB#							//		Á¦³×¸¯Ä«µå					|
+//27066#Sem_DB#							//		½¦µµ¿ìÃ¼ÀÌ¼­Ä«µå				|
+//27067#Sem_DB#							//		¿ø´õ·¯Ä«µå					|
+//27068#Sem_DB#							//		Áø¿¡·¹¸Þ½º°¡ÀÏÄ«µå				|
+//27069#Sem_DB#							//		Áø¸¶°¡·¹Å¸¼Ò¸°Ä«µå				|
+//27070#Sem_DB#							//		ÁøÄ«Æ®¸°´ÀÄÉÀÌ·ÐÄ«µå				|
+//27071#Sem_DB#							//		Áø¼Î½Çµð¸ÕÄ«µå				|
+//27072#Sem_DB#							//		ÁøÇÏ¿öµå¾ËÆ®¾ÆÀÌÁ¨Ä«µå			|
+//27073#Sem_DB#							//		Áø¼¼ÀÌ·»À©ÀúÄ«µå				|
+//27074#Sem_DB#							//		Áø·£´Þ·Î·»½ºÄ«µå				|
+//27075#Sem_DB#							//		ÁøÇÃ¶ó¸áÀÌ¹ÄÄ«µå				|
+//27076#Sem_DB#							//		Áø½Ç¸®¾Æ¾Ëµ¥Ä«µå				|
+//27077#Sem_DB#							//		ÁøÃ¾¸®¿ìÄ«µå					|
+//27078#Sem_DB#							//		Áø°ÅÆ¼À§Ä«µå					|
+//27079#Sem_DB#							//		ÁøÆ®·»Æ¼´ÏÄ«µå				|
+//27080#Sem_DB#							//		Áø¾Æ¸£º¸Ä¡¿À¹Ù½ÇÄ«µå				|
+//27089#Sem_DB#							//		T_W_OÄ«µå					|
+//27090#Sem_DB#							//		DR815Ä«µå					|
+//27091#Sem_DB#							//		GC109Ä«µå					|
+//27092#Sem_DB#							//		Âû½ºÅÏÄ«µå					|
+//27093#Sem_DB#							//		Å±½ºÅÜÄ«µå					|
+//27094#Sem_DB#							//		¶ô½ºÅÜÄ«µå					|
+//27095#Sem_DB#							//		½ºÅÜÄ«µå					|
+//27096#Sem_DB#							//		Å±¾ØÅ±Ä«µå					|
+//27097#Sem_DB#							//		±×¸°Ã¼³×·¹Ä«µå				|
+//27098#Sem_DB#							//		¼ö¸®·Îº¿ÅÍº¸Ä«µå				|
+//27099#Sem_DB#							//		Å½»ç·Îº¿ÅÍº¸Ä«µå				|
+//27100#Sem_DB#							//		°íÃ¶·Îº¿Ä«µå					|
+//27120#Sem_DB#							//		ÀÌ¾Æ¶óÄ«µå					|
+//27121#Sem_DB#							//		ÇÇ¶ó´Ï¾ÆÄ«µå					|
+//27122#Sem_DB#							//		Äí·çÇÇ¶óÄ«µå					|
+//27123#Sem_DB#							//		ÅõÄ­Ä«µå					|
+//27124#Sem_DB#							//		Àç±Ô¾îÄ«µå					|
+//27125#Sem_DB#							//		¸Ó¸®¾ø´Â¸»Ä«µå				|
+//27126#Sem_DB#							//		º¸ÀÌÅ¸Å¸Ä«µå					|
+//29012#Sem_DB#							//		sorry					|
+//29042#Sem_DB#							//		sorry					|
+//29043#Sem_DB#							//		sorry					|
+//29044#Sem_DB#							//		sorry					|
+//29045#Sem_DB#							//		sorry					|
+//29058#Sem_DB#							//		sorry					|
+//29059#Sem_DB#							//		sorry					|
+//29060#Sem_DB#							//		sorry					|
+//29127#Sem_DB#							//		sorry					|
+//29128#Sem_DB#							//		sorry					|
+//29129#Sem_DB#							//		sorry					|
+//29130#Sem_DB#							//		sorry					|
+//29131#Sem_DB#							//		sorry					|
+//29132#Sem_DB#							//		sorry					|
+//29133#Sem_DB#							//		sorry					|
+//29134#Sem_DB#							//		sorry					|
+//29135#Sem_DB#							//		sorry					|
+//29136#Sem_DB#							//		sorry					|
+//29137#Sem_DB#							//		sorry					|
+//29138#Sem_DB#							//		sorry					|
+//29139#Sem_DB#							//		sorry					|
+//29140#Sem_DB#							//		sorry					|
+//29141#Sem_DB#							//		sorry					|
+//29166#Sem_DB#							//		sorry					|
+//29167#Sem_DB#							//		sorry					|
+//29168#Sem_DB#							//		sorry					|
+//29169#Sem_DB#							//		sorry					|
+//29170#Sem_DB#							//		sorry					|
+//29171#Sem_DB#							//		sorry					|
+//29172#Sem_DB#							//		sorry					|
+//29173#Sem_DB#							//		sorry					|
+//29174#Sem_DB#							//		sorry					|
+//29175#Sem_DB#							//		sorry					|
+//29176#Sem_DB#							//		sorry					|
+//29177#Sem_DB#							//		sorry					|
+//29178#Sem_DB#							//		sorry					|
+//29179#Sem_DB#							//		sorry					|
+//29180#Sem_DB#							//		sorry					|
+//29181#Sem_DB#							//		sorry					|
+//29182#Sem_DB#							//		sorry					|
+//29183#Sem_DB#							//		sorry					|
+//29184#Sem_DB#							//		sorry					|
+//29185#Sem_DB#							//		sorry					|
+//29186#Sem_DB#							//		sorry					|
+//29187#Sem_DB#							//		sorry					|
+//29188#Sem_DB#							//		sorry					|
+//29189#Sem_DB#							//		sorry					|
+//29190#Sem_DB#							//		sorry					|
+//29191#Sem_DB#							//		sorry					|
+//29192#Sem_DB#							//		sorry					|
+//29193#Sem_DB#							//		sorry					|
+//29194#Sem_DB#							//		sorry					|
+//29195#Sem_DB#							//		sorry					|
+//29196#Sem_DB#							//		sorry					|
+//29197#Sem_DB#							//		sorry					|
+//29198#Sem_DB#							//		sorry					|
+//29199#Sem_DB#							//		sorry					|
+//29200#Sem_DB#							//		sorry					|
+//29201#Sem_DB#							//		sorry					|
+//29202#Sem_DB#							//		sorry					|
+//29203#Sem_DB#							//		sorry					|
+//29204#Sem_DB#							//		sorry					|
+//29205#Sem_DB#							//		sorry					|
+//29206#Sem_DB#							//		sorry					|
+//29207#Sem_DB#							//		sorry					|
+//29212#Sem_DB#							//		sorry					|
+//29213#Sem_DB#							//		sorry					|
+//29214#Sem_DB#							//		sorry					|
+//29215#Sem_DB#							//		sorry					|
+//29216#Sem_DB#							//		sorry					|
+//29217#Sem_DB#							//		sorry					|
+//29218#Sem_DB#							//		sorry					|
+//29219#Sem_DB#							//		sorry					|
+//29220#Sem_DB#							//		sorry					|
+//29221#Sem_DB#							//		sorry					|
+//29222#Sem_DB#							//		sorry					|
+//29223#Sem_DB#							//		sorry					|
+//29230#Sem_DB#							//		jp_ev02					|
+//29231#Sem_DB#							//		sorry					|
+//29232#Sem_DB#							//		sorry					|
+//29233#Sem_DB#							//		sorry					|
+//29234#Sem_DB#							//		sorry					|
+//29235#Sem_DB#							//		sorry					|
+//29236#Sem_DB#							//		sorry					|
+//29237#Sem_DB#							//		sorry					|
+//29238#Sem_DB#							//		sorry					|
+//29239#Sem_DB#							//		sorry					|
+//29240#Sem_DB#							//		sorry					|
+//29241#Sem_DB#							//		sorry					|
+//29242#Sem_DB#							//		sorry					|
+//29243#Sem_DB#							//		sorry					|
+//29244#Sem_DB#							//		sorry					|
+//29245#Sem_DB#							//		sorry					|
+//29246#Sem_DB#							//		sorry					|
+//29247#Sem_DB#							//		sorry					|
+//29248#Sem_DB#							//		sorry					|
+//29249#Sem_DB#							//		sorry					|
+//29250#Sem_DB#							//		sorry					|
+//29251#Sem_DB#							//		sorry					|
+//29252#Sem_DB#							//		sorry					|
+//29253#Sem_DB#							//		sorry					|
+//29254#Sem_DB#							//		sorry					|
+//29255#Sem_DB#							//		sorry					|
+//29256#Sem_DB#							//		sorry					|
+//29257#Sem_DB#							//		sorry					|
+//29258#Sem_DB#							//		sorry					|
+//29259#Sem_DB#							//		sorry					|
+//29260#Sem_DB#							//		sorry					|
+//29261#Sem_DB#							//		sorry					|
+//29262#Sem_DB#							//		sorry					|
+//29263#Sem_DB#							//		sorry					|
+//29264#Sem_DB#							//		sorry					|
+//29265#Sem_DB#							//		sorry					|
+//29266#Sem_DB#							//		sorry					|
+//29267#Sem_DB#							//		sorry					|
+//29268#Sem_DB#							//		sorry					|
+//29269#Sem_DB#							//		sorry					|
+//29270#Sem_DB#							//		sorry					|
+//29271#Sem_DB#							//		sorry					|
+//29272#Sem_DB#							//		sorry					|
+//29273#Sem_DB#							//		sorry					|
+//29274#Sem_DB#							//		sorry					|
+//29275#Sem_DB#							//		sorry					|
+//29276#Sem_DB#							//		sorry					|
+//29277#Sem_DB#							//		sorry					|
+//29278#Sem_DB#							//		sorry					|
+//29279#Sem_DB#							//		sorry					|
+//29280#Sem_DB#							//		sorry					|
+//29281#Sem_DB#							//		sorry					|
+//29282#Sem_DB#							//		sorry					|
+//29300#Sem_DB#							//		sorry					|
+//31000#Sem_DB#							//		·çµµÄ«µå					|
+//31001#Sem_DB#							//		¿©Àü»ç·Î¶óÄ«µå				|
+//31002#Sem_DB#							//		¿¤ºñ¾ÆÄ«µå					|
+//31003#Sem_DB#							//		Áö¿ÀÀÌ¾ÆÄ«µå					|
+//31004#Sem_DB#							//		È£À§¹«»ç¼ÒÇöÄ«µå				|
+//31005#Sem_DB#							//		Àå±º´ëÇöÄ«µå					|
+31006#LoVA_Hades_Card#					//		LoVAÇÏµ¥½ºÄ«µå				|		LoVA Hades Card
+31007#LoVA_Realization_Hades_Card#		//		LoVAÁøÈ­ÇÏµ¥½ºÄ«µå			|		LoVA Realization Hades Card
+31008#LoVA_Lulu_Card#					//		LoVA·ç·çÄ«µå				|		LoVA Lulu Card
+31009#LoVA_Realization_Lulu_Card#		//		LoVAÁøÈ­·ç·çÄ«µå				|		LoVA Realization Lulu Card
+31010#LoVA_Kima_Card#					//		LoVAÅ°¸¶Ä«µå				|		LoVA Kima Card
+31011#LoVA_Realization_Kima_Card#		//		LoVAÁøÈ­Å°¸¶Ä«µå				|		LoVA Realization Kima Card
+31012#LoVA_Bahamut_Card#				//		LoVA¹ÙÇÏ¹«Æ®Ä«µå				|		LoVA Bahamut Card
+31013#LoVA_Realization_Bahamut_Card#	//		LoVAÁøÈ­¹ÙÇÏ¹«Æ®Ä«µå			|		LoVA Realization Bahamut Card
+31014#LoVA_Ragnarok_Card#				//		LoVA¶ó±×³ª·ÎÅ©Ä«µå			|		LoVA Ragnarok Card
+31015#LoVA_Realization_Ragnarok_Card#	//		LoVAÁøÈ­¶ó±×³ª·ÎÅ©Ä«µå			|		LoVA Realization Ragnarok Card
+31016#Decorated_Evil_Tree_Card#			//		Àå½ÄµÈ¾Ç·É³ª¹«Ä«µå				|		Evil Decorated Tree Card
+31017#Vicious_Cookie_Card#				//		Æ÷¾ÇÇØÁøÄíÅ°Ä«µå				|		Tyrannical Cookie Card
+31018#Evil_Dwelling_Box_Card#			//		¾Ç·É±êµç»óÀÚÄ«µå				|		Evil Imbued Box Card
+31019#Creepy_Demon_Card#				//		¼¶¶àÇÑ¾Ç·ÉÄ«µå				|		Spooky Spirit Card
+31020#Malicious_Baby_Ghost_Card#		//		¾ÇÀÇ¿¡ÂùÀ¯·ÉÄ«µå				|		Evil Cold Ghost Card
+31021#Dancing_Marionette_Card#			//		ÃãÃß´Â¸¶¸®¿À³×Æ®Ä«µå				|		Dancing Marionette Card
+31022#Abandoned_Teddy_Bear_Card#		//		¹ö·ÁÁø°õÀÎÇüÄ«µå				|		Abandoned Teddy Bear Card
+31023#Celine_Kimi_Card#					//		¼¿¸°´ÀÅ°¹ÌÄ«µå				|		Celine Kimi Card
+27126#boitata_card#							//		º¸ÀÌÅ¸Å¸Ä«µå					|   Carta Boitata
+//31024##								//		ºÒ¸êÀÇÀúÁÖ¹ÞÀº±â»çÄ«µå			|
+//31025##								//		ºÒ¸êÀÇÀ©µå°í½ºÆ®Ä«µå				|
+//31026##								//		½ºÅ×ÆÇÄ«µå					|
