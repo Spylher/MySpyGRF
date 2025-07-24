@@ -12,6 +12,9 @@ namespace MySpyGRF.Server
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Configure endpoint antes de Build
+            builder.WebHost.UseUrls("http://0.0.0.0:25776");
+
             // Add services to the container.
             builder.Services.AddDbContext<AppDbContext>(u => u.UseSqlite("DataSource=app.db"));
             builder.Services.AddScoped<IUserRepository, UserRepository>();
@@ -35,13 +38,8 @@ namespace MySpyGRF.Server
             //app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
-
             app.MapControllers();
             app.MapGet("/", () => $"Hello World!");
-            //app.Urls.Add("https://localhost:25776");
-            app.Urls.Add("https://0.0.0.0:25776");
-
             app.Run();
         }
     }
