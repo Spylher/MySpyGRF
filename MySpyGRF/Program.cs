@@ -34,20 +34,18 @@ internal class Program
             }
         }
 
-        //AnsiConsole.MarkupLine("[bold yellow]Starting login process...[/]");
-
         // Authenticating
         Authenticating();
 
         // Login Message
         AnsiConsole.MarkupLine($"[bold yellow]Login successful![/]");
-        AnsiConsole.MarkupLine($"👤 Welcome, [bold cyan]{LoginRequest.Username}[/]!");
+        AnsiConsole.MarkupLine($"👤 Welcome back, [bold cyan]{LoginRequest.Username}[/]!");
 
         // Downloading
         await Downloading();
 
-        // End
-        AnsiConsole.MarkupLine($"[green]✔  GRF Installed successfully! [/]");
+        AnsiConsole.MarkupLine("[yellow]GRF installation completed![/]");
+        AnsiConsole.MarkupLine("[bold magenta]✔  Enjoy your new GRF features![/]");
         Console.ReadKey();
     }
 

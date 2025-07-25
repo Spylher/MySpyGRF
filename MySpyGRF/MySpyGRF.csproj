@@ -5,7 +5,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>Spy.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Spy.ico" />
+    <None Remove="Spy.png" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Figgle" Version="0.6.5" />
@@ -15,6 +21,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MySpyGRF.Core\MySpyGRF.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Spy.ico" />
+    <Resource Include="Spy.png" />
   </ItemGroup>
 
 </Project>
