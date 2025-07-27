@@ -13,8 +13,8 @@ internal class Program
     internal static string ExistingSkinPath = Path.Combine(RagnarokPath, "skin");
     internal static LoginRequest LoginRequest = new()
     {
-        Username = "FerraZ",
-        Password = "FerraZ",
+        Username = "Royauua",
+        Password = "Royauua",
     };
 
     private static async Task Main()
@@ -29,7 +29,9 @@ internal class Program
             RagnarokPath = @"D:\Gravity\Ragnarok";
             if (!Directory.Exists(RagnarokPath))
             {
-                Console.WriteLine("❌ Pasta Ragnarok não encontrada.");
+                AnsiConsole.MarkupLine("[bold red]❌ Existing GRF data not found![/]");
+                AnsiConsole.MarkupLine("[bold yellow]Please ensure Ragnarok is installed correctly.[/]");
+                Console.ReadKey();
                 return;
             }
         }
@@ -57,12 +59,10 @@ internal class Program
                 try
                 {
                     using var client = new HttpClient();
-                    const string apiUrl = "http://193.180.213.177:25776/v1/User/login"; // Altere para a URL real da sua API
-
+                    const string apiUrl = "0.0.0.0:25776/v1/User/login"; // Altere para a URL real da sua API
                     var response = client.PostAsJsonAsync(apiUrl, LoginRequest).Result;
 
                     response.EnsureSuccessStatusCode();
-
                     var result = response.Content.ReadFromJsonAsync<LoginResponse>().Result;
 
                     if (result is null)
@@ -83,7 +83,6 @@ internal class Program
                 return Task.CompletedTask;
             });
 
-        //zipUrl = @"https://github.com/Spylher/MySpyGRF/archive/refs/heads/main.zip";
         AnsiConsole.MarkupLine($"[bold yellow]Authenticating...[/]");
         AnsiConsole.MarkupLine("[bold green]⚙  Authentication successful![/]");
         Console.WriteLine();
