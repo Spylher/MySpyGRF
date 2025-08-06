@@ -1,50 +1,50 @@
-﻿using Microsoft.EntityFrameworkCore;
-using MySpyGRF.Server.Data;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using MySpyGRF.Server.Data.Models;
 namespace MySpyGRF.Server.Repositories;
 
-public class UserRepository(AppDbContext dbContext) : IUserRepository
+public class UserRepository(UserManager<ApplicationUser> userManager) : IUserRepository
 {
-    public readonly AppDbContext DbContext = dbContext;
+    private readonly UserManager<ApplicationUser> _userManager = userManager;
 
-    public IEnumerable<UserEntity> GetAll() => DbContext.Users.ToList();
-    public async Task<IEnumerable<UserEntity>> GetAllAsync() => await DbContext.Users.ToListAsync();
+    public IEnumerable<ApplicationUser> GetAll() => _userManager.Users.ToList();
+    public async Task<IEnumerable<ApplicationUser>> GetAllAsync() => await _userManager.Users.ToListAsync();
 
-    public Task<UserEntity?> GetByIdAsync(int id) => DbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
-    public Task<UserEntity?> GetUserIdByName(string username) => DbContext.Users.FirstOrDefaultAsync(u => u.Username == username);
+    public Task<ApplicationUser?> GetByIdAsync(string id) => _userManager.FindByIdAsync(id);
+    public Task<ApplicationUser?> GetByNameAsync(string username) => _userManager.FindByNameAsync(username);
 
-    public async Task<bool> AddAsync(UserEntity userEntity)
+    public async Task<IdentityResult> AddAsync(ApplicationUser user, string password)
     {
-        var user = await DbContext.Users.FirstOrDefaultAsync(u => u.Username == userEntity.Username);
-        if (user is not null)
-            return false;
-
-        await DbContext.Users.AddAsync(userEntity);
-        await DbContext.SaveChangesAsync();
-        return true;
-    }
-
-    public async Task<bool> Update(UserEntity userEntity)
-    {
-        var user = await DbContext.Users.FirstOrDefaultAsync(u => u.Id == userEntity.Id);
-
-        if (user == null)
-            return false;
-
-        DbContext.Users.Update(user);
-        await DbContext.SaveChangesAsync();
-        return true;
-
-    }
-
-    public async Task<bool> Delete(int id)
-    {
-        var user = await DbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
-        if (user == null)
-            return false;
+        var result = await _userManager.CreateAsync(user, password);
         
-        DbContext.Users.Remove(user);
-        await DbContext.SaveChangesAsync();
-        return true;
+        if (result.Succeeded)
+            await _userManager.AddToRoleAsync(user, "User");
+        
+        return result;
+    }
+
+    public async Task<bool> UpdateAsync(ApplicationUser updatedUser)
+    {
+        var user = await _userManager.FindByIdAsync(updatedUser.Id);
+        if (user == null) 
+            return false;
+
+        user.UserName = updatedUser.UserName;
+        user.Email = updatedUser.Email;
+        user.Active = updatedUser.Active;
+        user.GrfUrl = updatedUser.GrfUrl;
+        user.ProfilesJson = updatedUser.ProfilesJson;
+        var result = await _userManager.UpdateAsync(user);
+        return result.Succeeded;
+    }
+
+    public async Task<bool> DeleteAsync(string userId)
+    {
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user == null) 
+            return false;
+
+        var result = await _userManager.DeleteAsync(user);
+        return result.Succeeded;
     }
 }

@@ -1,15 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using MySpyGRF.Server.Data.Models;
 namespace MySpyGRF.Server.Data;
 
-public class AppDbContext(DbContextOptions options) : DbContext(options)
+public class AppDbContext : IdentityDbContext<ApplicationUser, IdentityRole, string>
 {
-    public DbSet<UserEntity> Users { get; set; }
-    public DbSet<LoginLogEntity> UserLogEntities { get; set; }
+    public DbSet<UserLoginEntry> UserLoginEntries { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
-        base.OnConfiguring(optionsBuilder);
-        optionsBuilder.UseSqlite("DataSource=app.db;cache=shared");
+
     }
 }

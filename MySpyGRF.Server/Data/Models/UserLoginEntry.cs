@@ -1,13 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Net.NetworkInformation;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MySpyGRF.Server.Data.Models
 {
-    public class LoginLogEntity
+    public class UserLoginEntry
     {
         [Key]
         public int Id { get; set; }
-        public required int UserId { get; set; }
         public required string Username { get; set; }
         public required string IpAddress { get; set; }
         public required string MachineName { get; set; }
@@ -15,5 +14,9 @@ namespace MySpyGRF.Server.Data.Models
         public required string MacAddress { get; set; }
         public bool Success { get; set; }
         public DateTime Timestamp { get; set; } = DateTime.Now;
+
+        [ForeignKey("User")]
+        public required string UserId { get; set; }
+        public ApplicationUser? User { get; set; }
     }
 }

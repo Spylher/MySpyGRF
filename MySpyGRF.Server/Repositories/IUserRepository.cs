@@ -1,14 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using MySpyGRF.Server.Data.Models;
 namespace MySpyGRF.Server.Repositories;
 
 public interface IUserRepository
 {
-    IEnumerable<UserEntity> GetAll();
-    Task<IEnumerable<UserEntity>> GetAllAsync();
-    Task<UserEntity?> GetUserIdByName(string username);
-    Task<UserEntity?> GetByIdAsync(int id);
-    Task<bool> AddAsync(UserEntity user);
-    Task<bool> Update(UserEntity user);
-    Task<bool> Delete(int id);
+    IEnumerable<ApplicationUser> GetAll();
+    Task<IEnumerable<ApplicationUser>> GetAllAsync();
+    Task<ApplicationUser?> GetByNameAsync(string username);
+    Task<ApplicationUser?> GetByIdAsync(string id);
+    Task<IdentityResult> AddAsync(ApplicationUser user, string password);
+    Task<bool> UpdateAsync(ApplicationUser user);
+    Task<bool> DeleteAsync(string id);
 }
