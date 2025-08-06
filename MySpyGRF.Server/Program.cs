@@ -19,7 +19,7 @@ namespace MySpyGRF.Server
 
             // Configure endpoint
 #if !DEBUG
-            builder.WebHost.UseUrls("http://0.0.0.0:25776");
+            builder.WebHost.UseUrls("http://0.0.0.0:25226");
 #endif
             // Add services to the container.
             builder.Services.AddDbContext<AppDbContext>(opt =>
